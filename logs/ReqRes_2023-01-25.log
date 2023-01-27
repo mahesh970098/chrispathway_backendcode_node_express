@@ -1,0 +1,2033 @@
+2023-01-25 19:30:20 [31merror[39m: 	uncaughtException: Cannot find module '../controllers/adminCtrl'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+Error: Cannot find module '../controllers/adminCtrl'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-25 19:30:42 [31merror[39m: 	uncaughtException: Cannot find module '../controllers/adminCtrl'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+Error: Cannot find module '../controllers/adminCtrl'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-25 19:30:59 [31merror[39m: 	uncaughtException: adminRoutes is not defined
+ReferenceError: adminRoutes is not defined
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:7:23)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:31:10 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:31:25 [31merror[39m: 	uncaughtException: Cannot find module '../controllers/adminCtrl'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+Error: Cannot find module '../controllers/adminCtrl'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-25 19:31:27 [31merror[39m: 	uncaughtException: Cannot find module '../controllers/adminCtrl'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+Error: Cannot find module '../controllers/adminCtrl'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-25 19:32:23 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 19:32:33 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 19:32:51 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:24
+        });
+         ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:04 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:24
+        });
+         ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:06 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:24
+        });
+         ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:14 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:26
+        });
+         ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:17 [31merror[39m: 	uncaughtException: Unexpected token 'else'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:11
+        else {
+        ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:19 [31merror[39m: 	uncaughtException: Unexpected token 'else'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:15
+        else {
+        ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:27 [31merror[39m: 	uncaughtException: Unexpected token 'else'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:15
+        else {
+        ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:37 [31merror[39m: 	uncaughtException: Unexpected end of input
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:30
+
+
+
+SyntaxError: Unexpected end of input
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:53 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:30
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:54 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:30
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:56 [31merror[39m: 	uncaughtException: Unexpected end of input
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:31
+
+
+
+SyntaxError: Unexpected end of input
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:33:59 [31merror[39m: 	uncaughtException: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+Error: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-25 19:34:05 [31merror[39m: 	uncaughtException: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+Error: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-25 19:34:10 [31merror[39m: 	uncaughtException: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+Error: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-25 19:35:19 [31merror[39m: 	uncaughtException: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+Error: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-25 19:35:28 [31merror[39m: 	uncaughtException: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+Error: Cannot find module '../../model/adminModel'
+Require stack:
+- E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js
+- E:\ALL-Data\seedfund\AACS\routes\routes.js
+- E:\ALL-Data\seedfund\AACS\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-25 19:35:58 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:39:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:39:03 [32minfo[39m: 	Requested URL : 
+2023-01-25 19:39:03 [32minfo[39m: 	/login
+2023-01-25 19:39:03 [31merror[39m: 	Error While Getting Meeting Data  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2023-01-25 19:39:46 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:39:48 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:40:00 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:40:06 [32minfo[39m: 	Requested URL : 
+2023-01-25 19:40:06 [32minfo[39m: 	/login
+2023-01-25 19:40:06 [31merror[39m: 	Error While Getting Meeting Data  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2023-01-25 19:42:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:42:21 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:42:26 [32minfo[39m: 	Requested URL : 
+2023-01-25 19:42:26 [32minfo[39m: 	/login
+2023-01-25 19:42:26 [31merror[39m: 	Error While Getting Meeting Data  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2023-01-25 19:43:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:43:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:43:19 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:43:25 [31merror[39m: 	uncaughtException: DB_HOST_NAME is not defined
+ReferenceError: DB_HOST_NAME is not defined
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:43:26 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:43:30 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:43:44 [31merror[39m: 	uncaughtException: Unexpected token ':'
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:21
+    port: "3306",
+        ^
+
+SyntaxError: Unexpected token ':'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:43:51 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:43:58 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:44:01 [32minfo[39m: 	Requested URL : 
+2023-01-25 19:44:01 [32minfo[39m: 	/login
+2023-01-25 19:44:01 [31merror[39m: 	Error While Getting Meeting Data  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2023-01-25 19:44:08 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:45:06 [32minfo[39m: 	Requested URL : 
+2023-01-25 19:45:06 [32minfo[39m: 	/login
+2023-01-25 19:45:06 [31merror[39m: 	Error While Getting Meeting Data  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2023-01-25 19:45:55 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:30
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:45:58 [31merror[39m: 	uncaughtException: MySQLConPool is not defined
+ReferenceError: MySQLConPool is not defined
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:44:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:45:58 [31merror[39m: 	uncaughtException: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:116:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:39:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-25 19:46:19 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:30
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:46:32 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:30
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:46:42 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:30
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:46:58 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:25
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:47:00 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:25
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:47:28 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:25
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:47:33 [31merror[39m: 	uncaughtException: con is not defined
+ReferenceError: con is not defined
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:27:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:47:36 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:25
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:47:40 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:26
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:47:42 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:26
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:47:46 [31merror[39m: 	uncaughtException: con is not defined
+ReferenceError: con is not defined
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:48:06 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:25
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:48:08 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:26
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:48:10 [31merror[39m: 	uncaughtException: Identifier 'mysql' has already been declared
+E:\ALL-Data\seedfund\AACS\config\dbconnect.js:26
+var mysql = require('mysql');
+    ^
+
+SyntaxError: Identifier 'mysql' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 19:48:11 [31merror[39m: 	uncaughtException: con is not defined
+ReferenceError: con is not defined
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:48:17 [31merror[39m: 	uncaughtException: MySQLConPool.MySQLConPool is not a function
+TypeError: MySQLConPool.MySQLConPool is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:48:22 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:51:50 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:53:41 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:53:45 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:53:46 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:53:47 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:53:49 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:53:51 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:53:54 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:53:55 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:53:59 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:54:01 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:54:04 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:54:10 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:54:12 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:54:16 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:35:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:54:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:54:29 [31merror[39m: 	uncaughtException: mysql is not defined
+ReferenceError: mysql is not defined
+    at Server.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:118:16)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitListeningNT (node:net:1353:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-01-25 19:54:55 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:54:55 [31merror[39m: 	uncaughtException: mysql is not defined
+ReferenceError: mysql is not defined
+    at Server.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:118:16)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitListeningNT (node:net:1353:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-01-25 19:54:55 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:54:55 [31merror[39m: 	uncaughtException: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:116:18)
+    at Server.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:123:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitListeningNT (node:net:1353:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-01-25 19:55:06 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:55:06 [31merror[39m: 	uncaughtException: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:116:18)
+    at Server.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:123:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitListeningNT (node:net:1353:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-01-25 19:55:27 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:55:27 [31merror[39m: 	uncaughtException: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:116:18)
+    at Server.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:123:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitListeningNT (node:net:1353:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-01-25 19:55:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:55:29 [31merror[39m: 	uncaughtException: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:116:18)
+    at Server.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:123:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitListeningNT (node:net:1353:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-01-25 19:55:54 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:55:58 [31merror[39m: 	uncaughtException: conn is not defined
+ReferenceError: conn is not defined
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:25:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:56:18 [31merror[39m: 	uncaughtException: MySQLConPool.connect is not a function
+TypeError: MySQLConPool.connect is not a function
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\config\dbconnect.js:25:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-25 19:56:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:56:34 [32minfo[39m: 	Requested URL : 
+2023-01-25 19:56:34 [32minfo[39m: 	/login
+2023-01-25 19:56:34 [31merror[39m: 	Error While Getting Meeting Data  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2023-01-25 19:56:58 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:57:00 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 19:57:09 [32minfo[39m: 	Requested URL : 
+2023-01-25 19:57:09 [32minfo[39m: 	/login
+2023-01-25 19:57:09 [31merror[39m: 	Error While Getting Meeting Data  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2023-01-25 20:00:23 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:00:23 [32minfo[39m: 	/login
+2023-01-25 20:00:23 [31merror[39m: 	Error While Getting Meeting Data  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2023-01-25 20:00:27 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:00:27 [32minfo[39m: 	/login
+2023-01-25 20:00:27 [31merror[39m: 	Error While Getting Meeting Data  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+2023-01-25 20:01:23 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:01:23 [32minfo[39m: 	/login
+2023-01-25 20:01:23 [31merror[39m: 	Error While Getting Meeting Data  ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-25 20:01:39 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:01:40 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:01:40 [32minfo[39m: 	/login
+2023-01-25 20:01:40 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:02:13 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:02:13 [32minfo[39m: 	/login
+2023-01-25 20:02:13 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:02:15 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:02:15 [32minfo[39m: 	/login
+2023-01-25 20:02:15 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:03:11 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:03:11 [32minfo[39m: 	/login
+2023-01-25 20:03:11 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:03:25 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:03:26 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:03:26 [32minfo[39m: 	/login
+2023-01-25 20:03:27 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:03:28 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:03:28 [32minfo[39m: 	/login
+2023-01-25 20:03:28 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:03:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:03:34 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:03:34 [32minfo[39m: 	/login
+2023-01-25 20:03:34 [31merror[39m: 	Error While Getting Meeting Data  ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-25 20:03:43 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:03:44 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:03:44 [32minfo[39m: 	/login
+2023-01-25 20:03:44 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:03:52 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:03:52 [32minfo[39m: 	/login
+2023-01-25 20:03:52 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester1@gmail.com'
+2023-01-25 20:03:59 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:03:59 [32minfo[39m: 	/login
+2023-01-25 20:03:59 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:04:14 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:04:14 [32minfo[39m: 	/login
+2023-01-25 20:04:14 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='testqer@gmail.com'
+2023-01-25 20:04:19 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:04:19 [32minfo[39m: 	/login
+2023-01-25 20:04:19 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:04:43 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:20
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:04:45 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:04:49 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:04:51 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:04:54 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:03 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:10 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:14 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:05:14 [32minfo[39m: 	/login
+2023-01-25 20:05:14 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:05:14 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com' and pwd='Tesqt@123' 
+2023-01-25 20:05:21 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:17
+                    if()
+                       ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:05:24 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:17
+                    if()
+                       ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:05:26 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:17
+                    if()
+                       ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:05:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:34 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:36 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:39 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:43 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:46 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:48 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:52 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:05:54 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:06:08 [31merror[39m: 	uncaughtException: Unexpected token 'if'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:18
+            else if (if (flag == 1) {
+                     ^^
+
+SyntaxError: Unexpected token 'if'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:06:12 [31merror[39m: 	uncaughtException: Unexpected token '.'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:19
+                res.send({ "result": "Fail", "Message": "Email Does not Exists!" });
+                   ^
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:06:15 [31merror[39m: 	uncaughtException: Unexpected token '{'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:18
+            else if  {
+                     ^
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:06:16 [31merror[39m: 	uncaughtException: Unexpected token '{'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:18
+            else if  {
+                     ^
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:06:19 [31merror[39m: 	uncaughtException: Unexpected token '{'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:18
+            else if {
+                    ^
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:06:24 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:18
+            else if (){
+                     ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 20:06:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:06:43 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:06:48 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:06:53 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:06:57 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:06:57 [32minfo[39m: 	/login
+2023-01-25 20:06:57 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:06:57 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com' and pwd='Tesqt@123' 
+2023-01-25 20:07:00 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:07:00 [32minfo[39m: 	/login
+2023-01-25 20:07:00 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='testero@gmail.com'
+2023-01-25 20:07:12 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:07:15 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:07:15 [32minfo[39m: 	/login
+2023-01-25 20:07:15 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='testero@gmail.com'
+2023-01-25 20:07:17 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:07:17 [32minfo[39m: 	/login
+2023-01-25 20:07:17 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com'
+2023-01-25 20:07:17 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='tester@gmail.com' and pwd='Test@123' 
+2023-01-25 20:08:37 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:08:37 [32minfo[39m: 	/login
+2023-01-25 20:08:37 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-01-25 20:08:37 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-01-25 20:08:42 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:08:42 [32minfo[39m: 	/login
+2023-01-25 20:08:42 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathwfay@gmail.com'
+2023-01-25 20:08:46 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:08:46 [32minfo[39m: 	/login
+2023-01-25 20:08:46 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-01-25 20:08:46 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='93900382847' 
+2023-01-25 20:09:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 20:09:37 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:09:37 [32minfo[39m: 	/login
+2023-01-25 20:09:37 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-01-25 20:09:37 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-01-25 20:09:43 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:09:43 [32minfo[39m: 	/login
+2023-01-25 20:09:43 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-01-25 20:09:43 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='939003828411' 
+2023-01-25 20:09:53 [31merror[39m: 	SyntaxError: Unexpected token } in JSON at position 80
+    at JSON.parse (<anonymous>)
+    at parse (E:\ALL-Data\seedfund\AACS\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\ALL-Data\seedfund\AACS\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (E:\ALL-Data\seedfund\AACS\node_modules\raw-body\index.js:231:16)
+    at done (E:\ALL-Data\seedfund\AACS\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\ALL-Data\seedfund\AACS\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-01-25 20:10:03 [31merror[39m: 	SyntaxError: Unexpected token . in JSON at position 77
+    at JSON.parse (<anonymous>)
+    at parse (E:\ALL-Data\seedfund\AACS\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\ALL-Data\seedfund\AACS\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (E:\ALL-Data\seedfund\AACS\node_modules\raw-body\index.js:231:16)
+    at done (E:\ALL-Data\seedfund\AACS\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\ALL-Data\seedfund\AACS\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-01-25 20:10:05 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:10:05 [32minfo[39m: 	/login
+2023-01-25 20:10:05 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-01-25 20:10:05 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-01-25 20:37:15 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:37:15 [32minfo[39m: 	/loginsignin
+2023-01-25 20:37:15 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:37:15 [32minfo[39m: 	/loginsignin
+2023-01-25 20:37:48 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:37:48 [32minfo[39m: 	/loginsignin
+2023-01-25 20:37:48 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:37:48 [32minfo[39m: 	/loginsignin
+2023-01-25 20:37:53 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:37:53 [32minfo[39m: 	/loginsignin
+2023-01-25 20:38:45 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:38:45 [32minfo[39m: 	/login
+2023-01-25 20:38:45 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:38:45 [32minfo[39m: 	/login
+2023-01-25 20:38:45 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 20:39:08 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:39:08 [32minfo[39m: 	/login
+2023-01-25 20:39:08 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:39:08 [32minfo[39m: 	/login
+2023-01-25 20:39:08 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 20:39:09 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:39:09 [32minfo[39m: 	/login
+2023-01-25 20:39:09 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 20:39:16 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:39:16 [32minfo[39m: 	/login
+2023-01-25 20:39:16 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:39:16 [32minfo[39m: 	/login
+2023-01-25 20:39:16 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 20:40:17 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:40:17 [32minfo[39m: 	/login
+2023-01-25 20:40:17 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:40:17 [32minfo[39m: 	/login
+2023-01-25 20:40:17 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 20:40:54 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:40:54 [32minfo[39m: 	/login
+2023-01-25 20:40:54 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:40:54 [32minfo[39m: 	/login
+2023-01-25 20:40:54 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 20:45:04 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:45:04 [32minfo[39m: 	/login
+2023-01-25 20:45:04 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:45:04 [32minfo[39m: 	/login
+2023-01-25 20:45:04 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 20:48:00 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:48:00 [32minfo[39m: 	/login
+2023-01-25 20:48:00 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:48:00 [32minfo[39m: 	/login
+2023-01-25 20:48:00 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 20:49:23 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:49:23 [32minfo[39m: 	/login
+2023-01-25 20:49:23 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:49:23 [32minfo[39m: 	/login
+2023-01-25 20:49:23 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 20:49:28 [32minfo[39m: 	Requested URL : 
+2023-01-25 20:49:28 [32minfo[39m: 	/login
+2023-01-25 20:49:28 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:06:12 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:06:12 [32minfo[39m: 	/login
+2023-01-25 21:06:12 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:06:12 [32minfo[39m: 	/login
+2023-01-25 21:06:12 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:07:17 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:07:17 [32minfo[39m: 	/login
+2023-01-25 21:07:17 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:07:17 [32minfo[39m: 	/login
+2023-01-25 21:07:17 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:31:59 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:32:00 [32minfo[39m: 	/login
+2023-01-25 21:32:00 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:32:00 [32minfo[39m: 	/login
+2023-01-25 21:32:00 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:33:30 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:33:30 [32minfo[39m: 	/login
+2023-01-25 21:33:30 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:33:30 [32minfo[39m: 	/login
+2023-01-25 21:33:30 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:33:41 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:33:41 [32minfo[39m: 	/login
+2023-01-25 21:33:41 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:33:41 [32minfo[39m: 	/login
+2023-01-25 21:33:41 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:35:47 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:35:47 [32minfo[39m: 	/login
+2023-01-25 21:35:47 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:35:47 [32minfo[39m: 	/login
+2023-01-25 21:35:47 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:35:59 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:35:59 [32minfo[39m: 	/login
+2023-01-25 21:35:59 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:35:59 [32minfo[39m: 	/login
+2023-01-25 21:35:59 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:36:38 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:36:38 [32minfo[39m: 	/login
+2023-01-25 21:36:38 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:36:38 [32minfo[39m: 	/login
+2023-01-25 21:36:38 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:37:18 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:37:18 [32minfo[39m: 	/login
+2023-01-25 21:37:25 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:37:25 [32minfo[39m: 	/login
+2023-01-25 21:37:25 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:37:25 [32minfo[39m: 	/login
+2023-01-25 21:37:25 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:39:27 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:39:27 [32minfo[39m: 	/login
+2023-01-25 21:39:27 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:39:27 [32minfo[39m: 	/login
+2023-01-25 21:39:27 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:39:34 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:39:34 [32minfo[39m: 	/login
+2023-01-25 21:39:34 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:39:34 [32minfo[39m: 	/login
+2023-01-25 21:39:34 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:40:30 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:40:30 [32minfo[39m: 	/login
+2023-01-25 21:40:30 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:40:30 [32minfo[39m: 	/login
+2023-01-25 21:40:30 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:44:08 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:44:08 [32minfo[39m: 	/login
+2023-01-25 21:44:08 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:44:08 [32minfo[39m: 	/login
+2023-01-25 21:44:08 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:45:33 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:45:33 [32minfo[39m: 	/login
+2023-01-25 21:45:33 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:45:33 [32minfo[39m: 	/login
+2023-01-25 21:45:33 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:46:13 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:46:13 [32minfo[39m: 	/login
+2023-01-25 21:46:13 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:46:13 [32minfo[39m: 	/login
+2023-01-25 21:46:13 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:48:00 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:48:00 [32minfo[39m: 	/login
+2023-01-25 21:48:00 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:48:00 [32minfo[39m: 	/login
+2023-01-25 21:48:00 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:49:50 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:49:50 [32minfo[39m: 	/login
+2023-01-25 21:49:50 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:49:50 [32minfo[39m: 	/login
+2023-01-25 21:49:50 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:51:51 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:51:51 [32minfo[39m: 	/login
+2023-01-25 21:51:51 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:51:51 [32minfo[39m: 	/login
+2023-01-25 21:51:51 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:56:09 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:56:09 [32minfo[39m: 	/login
+2023-01-25 21:56:09 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:56:09 [32minfo[39m: 	/login
+2023-01-25 21:56:09 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:57:51 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:57:51 [32minfo[39m: 	/login
+2023-01-25 21:57:51 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:57:51 [32minfo[39m: 	/login
+2023-01-25 21:57:51 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:58:49 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:58:49 [32minfo[39m: 	/login
+2023-01-25 21:58:49 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:58:49 [32minfo[39m: 	/login
+2023-01-25 21:58:49 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=NULL
+2023-01-25 21:59:44 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:59:44 [32minfo[39m: 	/login
+2023-01-25 21:59:44 [32minfo[39m: 	Requested URL : 
+2023-01-25 21:59:44 [32minfo[39m: 	/login
+2023-01-25 21:59:44 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='a@gmail.com'
+2023-01-25 22:00:51 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:00:51 [32minfo[39m: 	/login
+2023-01-25 22:00:51 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:00:51 [32minfo[39m: 	/login
+2023-01-25 22:00:51 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-01-25 22:00:51 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-01-25 22:06:53 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 22:08:34 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:13:50 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:14:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:24:02 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:27:08 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:27:08 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:27:08 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role_id=1 and phone_no='1234567';
+2023-01-25 22:27:08 [31merror[39m: 	uncaughtException: email_service is not defined
+ReferenceError: email_service is not defined
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\utils\dbutils.js:21:25)
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+2023-01-25 22:27:41 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:27:47 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:27:47 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:27:47 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:27:47 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,,designation, phone_no, joined_on) values("mahesh970098@gmail.com","Test@123","1","Mahesh","software","1234567","01/01/2023");
+2023-01-25 22:27:47 [31merror[39m: 	uncaughtException: email_service is not defined
+ReferenceError: email_service is not defined
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\utils\dbutils.js:21:25)
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+2023-01-25 22:28:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:28:33 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:28:33 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:28:33 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:28:33 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on) values("mahesh970098@gmail.com","Test@123","1","Mahesh","software","1234567","01/01/2023");
+2023-01-25 22:29:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:29:47 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:29:49 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:29:49 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:29:49 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:29:49 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on) values("mahesh970098@gmail.com","Test@123","1","Mahesh","software","1234567","01/01/2023");
+2023-01-25 22:30:01 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:30:01 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:30:01 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:30:02 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:30:02 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:30:02 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:30:21 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:30:21 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:30:21 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:30:21 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on) values("mahesh970098@gmail.com","Test@123","1","Mahesh","software","1234567","01/01/2023");
+2023-01-25 22:30:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:30:34 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:30:34 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:30:34 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:30:34 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on) values("mahesh970098@gmail.com","Test@123","1","Mahesh","software","1234567","01/01/2023");
+2023-01-25 22:30:34 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'indexId')
+TypeError: Cannot read properties of undefined (reading 'indexId')
+    at E:\ALL-Data\seedfund\AACS\model\adminModel.js:47:45
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\utils\dbutils.js:26:23)
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.OkPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:74:10)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+2023-01-25 22:30:53 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:30:53 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:30:53 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:31:00 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:31:10 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:31:10 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:31:10 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:31:11 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on) values("mahesh970098@gmail.com","Test@123","1","Mahesh","software","1234567","01/01/2023");
+2023-01-25 22:31:11 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'insertId')
+TypeError: Cannot read properties of undefined (reading 'insertId')
+    at E:\ALL-Data\seedfund\AACS\model\adminModel.js:47:45
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\utils\dbutils.js:26:23)
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.OkPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:74:10)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+2023-01-25 22:31:30 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:31:34 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:31:36 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:31:40 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:31:42 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:31:43 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:31:43 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:31:43 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:31:43 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on) values("mahesh970098@gmail.com","Test@123","1","Mahesh","software","1234567","01/01/2023");
+2023-01-25 22:32:02 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:05 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:09 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:12 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:57
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:32:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:18 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:21 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:25 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:40 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:42 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:50 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:51 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:55 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:32:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:33:00 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:33:50 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:33:50 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:33:50 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:33:50 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on) values("mahesh970098@gmail.com","Test@123","1","Mahesh","software","1234567","01/01/2023");
+2023-01-25 22:33:50 [32minfo[39m: 	select * from users_dtl_t where id=10;
+2023-01-25 22:34:50 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:34:56 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:34:56 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:34:56 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:35:10 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:35:10 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:35:10 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:35:10 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on) values("mahesh970098@gmail.com","Test@123","1","Mahesh","software","1234567","01/01/2023");
+2023-01-25 22:35:10 [32minfo[39m: 	select * from users_dtl_t where id=11;
+2023-01-25 22:35:12 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:35:12 [32minfo[39m: 	/admincreateUser
+2023-01-25 22:35:12 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-01-25 22:37:42 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:37:45 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:37:47 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\routes\routes.js:10
+router.post('/roles', adminRoutes.)
+                                  ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:37:50 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 22:38:02 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 22:38:18 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 22:38:19 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 22:38:23 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 22:38:25 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:71
+    adminModel.login(, , async (err, Data18, flag) => {
+                     ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:38:27 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 22:38:29 [31merror[39m: 	uncaughtException: Unexpected token 'else'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:79
+            else if (flag == 2) {
+            ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:38:30 [31merror[39m: 	uncaughtException: Unexpected token 'else'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:80
+            else {
+            ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:38:31 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:85
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:38:33 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 22:38:40 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-01-25 22:38:44 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:66
+exports. = (, , callback) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:38:45 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:66
+exports. = ( callback) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:38:55 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:66
+exports. = ( callback) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:38:57 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:66
+exports. = ( callback) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:39:00 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:39:02 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:39:08 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:39:12 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:39:16 [31merror[39m: 	uncaughtException: Unexpected token 'else'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:77
+                    else {
+                    ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:39:18 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:82
+        }
+        ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:39:20 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:79
+        }
+        ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:39:22 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:78
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-01-25 22:39:24 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:39:28 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:39:32 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:39:38 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:40:22 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:40:22 [32minfo[39m: 	/roles
+2023-01-25 22:40:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:40:29 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:40:29 [32minfo[39m: 	/roles
+2023-01-25 22:40:30 [32minfo[39m: 	SELECT * FROM charispathway.roles_table where status=1;
+2023-01-25 22:40:30 [31merror[39m: 	uncaughtException: resultss is not defined
+ReferenceError: resultss is not defined
+    at E:\ALL-Data\seedfund\AACS\model\adminModel.js:75:27
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\utils\dbutils.js:26:23)
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+2023-01-25 22:40:41 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-01-25 22:40:41 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:40:41 [32minfo[39m: 	/roles
+2023-01-25 22:40:41 [32minfo[39m: 	SELECT * FROM charispathway.roles_table where status=1;
+2023-01-25 22:40:58 [32minfo[39m: 	Requested URL : 
+2023-01-25 22:40:58 [32minfo[39m: 	/roles
+2023-01-25 22:40:58 [32minfo[39m: 	SELECT * FROM charispathway.roles_table where status=1;
