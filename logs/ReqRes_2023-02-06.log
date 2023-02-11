@@ -1,0 +1,2205 @@
+2023-02-06 14:29:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:30:11 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:32:16 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:32:16 [32minfo[39m: 	/creating_task
+2023-02-06 14:32:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:32:34 [32minfo[39m: 	/creating_task
+2023-02-06 14:32:51 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:32:51 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:32:51 [32minfo[39m: 	/creating_task
+2023-02-06 14:32:51 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('Task name 1')
+2023-02-06 14:32:51 [31merror[39m: 	uncaughtException: email_service is not defined
+ReferenceError: email_service is not defined
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\utils\dbutils.js:21:25)
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+2023-02-06 14:33:12 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:33:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:33:13 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:33:13 [32minfo[39m: 	/creating_task
+2023-02-06 14:33:13 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values'Task name 1'
+2023-02-06 14:33:13 [31merror[39m: 	uncaughtException: email_service is not defined
+ReferenceError: email_service is not defined
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\utils\dbutils.js:21:25)
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+2023-02-06 14:33:22 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:33:22 [32minfo[39m: 	/creating_task
+2023-02-06 14:33:22 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values'Task name 1'
+2023-02-06 14:33:22 [31merror[39m: 	uncaughtException: email_service is not defined
+ReferenceError: email_service is not defined
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\utils\dbutils.js:21:25)
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:88:28)
+2023-02-06 14:33:53 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:81
+    QRY_TO_EXEC = `insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('${}')`
+                                                                                                  ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:34:00 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:34:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:34:03 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:34:04 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:34:08 [31merror[39m: 	uncaughtException: Unexpected token '.'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:83
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [task_name, task_desc, created_role_id, c_by], function (err, results) {
+          ^
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:34:10 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:34:17 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:34:21 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:34:22 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:34:22 [32minfo[39m: 	/creating_task
+2023-02-06 14:34:22 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('Task name 1', 'TEsting the task 1 by admin', 1, 11)
+2023-02-06 14:34:50 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:34:53 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:105
+            res.send({ "result": "success","message" });
+                                                     ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:34:55 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:35:03 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:35:04 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:35:10 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:105
+            res.send({ "result": "success","message":"Created Successfully.","Data" });
+                                                                                    ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:12 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:105
+            res.send({ "result": "success","message":"Created Successfully.","Data": });
+                                                                                     ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:35:17 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:35:26 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:95
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:30 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:30 [31merror[39m: 	uncaughtException: Unexpected number
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:89
+            QRY_TO_EXEC 1= `insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values(?)`
+                        ^
+
+SyntaxError: Unexpected number
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:32 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:35 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:36 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:40 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:43 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:45 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:53 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:35:55 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:36:00 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:36:04 [31merror[39m: 	uncaughtException: Unexpected token ']'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:90
+            dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC1, cntxtDtls, [results.], function (err, results1) {
+                                                                                   ^
+
+SyntaxError: Unexpected token ']'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:36:10 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:36:13 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:36:24 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:94
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:36:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:36:36 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:36:36 [32minfo[39m: 	/creating_task
+2023-02-06 14:36:36 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('Task name 1', 'TEsting the task 1 by admin', 1, 11)
+2023-02-06 14:36:36 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'insertId')
+TypeError: Cannot read properties of undefined (reading 'insertId')
+    at E:\ALL-Data\seedfund\AACS\model\adminModel.js:90:87
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\utils\dbutils.js:26:23)
+    at Query.<anonymous> (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.OkPacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\sequences\Query.js:74:10)
+    at Protocol._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ALL-Data\seedfund\AACS\node_modules\mysql\lib\protocol\Parser.js:43:10)
+2023-02-06 14:37:05 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:37:08 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:37:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:37:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:37:17 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:37:17 [32minfo[39m: 	/creating_task
+2023-02-06 14:37:17 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('Task name 1', 'TEsting the task 1 by admin', 1, 11)
+2023-02-06 14:37:17 [32minfo[39m: 	select * from tasks_dlt_t where id=3
+2023-02-06 14:37:52 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:100
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:37:54 [31merror[39m: 	uncaughtException: Identifier 'values' has already been declared
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:87
+    let values = [task_name, task_desc, created_role_id, c_by]
+        ^
+
+SyntaxError: Identifier 'values' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:37:58 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:37:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:07 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:12 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:16 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:18 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:23 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:24 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:27 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:30 [31merror[39m: 	uncaughtException: Unexpected end of input
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:103
+}
+ 
+
+SyntaxError: Unexpected end of input
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:38:32 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:39 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:40 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:44 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:38:48 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:86
+    })
+    ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:38:52 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:86
+    })
+    ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:38:55 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:86
+    })
+    ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:38:57 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:86
+    })
+    ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:39:00 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:86
+    })
+    ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:39:05 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:86
+    })
+    ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:39:09 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:39:19 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:39:22 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:39:26 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:39:43 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:39:44 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:39:46 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:39:48 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:39:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:39:50 [32minfo[39m: 	/creating_task
+2023-02-06 14:39:50 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 1' and task_desc='TEsting the task 1 by admin'
+2023-02-06 14:40:03 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:04 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:07 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:12 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:16 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:21 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:24 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:35 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:41 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:44 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:46 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:40:46 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:40:46 [32minfo[39m: 	/creating_task
+2023-02-06 14:40:47 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 1' and task_desc='TEsting the task 1 by admin'
+2023-02-06 14:41:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:41:02 [32minfo[39m: 	/creating_task
+2023-02-06 14:41:02 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 1' and task_desc='TEsting the task 1 by admin'
+2023-02-06 14:41:02 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('Task name 1', 'TEsting the task 1 by admin', 1, 11)
+2023-02-06 14:41:02 [32minfo[39m: 	select * from tasks_dlt_t where id=1
+2023-02-06 14:41:03 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:41:03 [32minfo[39m: 	/creating_task
+2023-02-06 14:41:03 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 1' and task_desc='TEsting the task 1 by admin'
+2023-02-06 14:41:03 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('Task name 1', 'TEsting the task 1 by admin', 1, 11)
+2023-02-06 14:41:03 [32minfo[39m: 	select * from tasks_dlt_t where id=2
+2023-02-06 14:41:05 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:41:05 [32minfo[39m: 	/creating_task
+2023-02-06 14:41:05 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 1' and task_desc='TEsting the task 1 by admin'
+2023-02-06 14:41:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:41:24 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:41:24 [32minfo[39m: 	/creating_task
+2023-02-06 14:41:24 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 1' and task_desc='TEsting the task 1 by admin'
+2023-02-06 14:41:24 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('Task name 1', 'TEsting the task 1 by admin', 1, 11)
+2023-02-06 14:41:24 [32minfo[39m: 	select * from tasks_dlt_t where id=1
+2023-02-06 14:41:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:41:25 [32minfo[39m: 	/creating_task
+2023-02-06 14:41:25 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 1' and task_desc='TEsting the task 1 by admin'
+2023-02-06 14:41:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:41:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:42:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:42:12 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:42:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:42:16 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'post')
+TypeError: Cannot read properties of undefined (reading 'post')
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:12:46)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-02-06 14:42:18 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:42:20 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:42:24 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:42:27 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:42:31 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:82
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:42:32 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:42:36 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:42:44 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:42:46 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:42:53 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:42:54 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:42:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:43:11 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:43:18 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:43:19 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:43:24 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:43:25 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:43:40 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:43:42 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:44:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:44:16 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:44:48 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:44:54 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:45:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:45:06 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:45:08 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:45:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:45:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:45:18 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:45:48 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:45:48 [32minfo[39m: 	/creating_task
+2023-02-06 14:45:48 [32minfo[39m: 	select * from tasks_dlt_t where task_name=NULL and task_desc=NULL
+2023-02-06 14:45:48 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values(NULL, NULL, NULL, '11')
+2023-02-06 14:45:48 [32minfo[39m: 	select * from tasks_dlt_t where id=2
+2023-02-06 14:46:20 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:46:20 [32minfo[39m: 	/view_task
+2023-02-06 14:46:20 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by='11'
+2023-02-06 14:47:04 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:47:04 [32minfo[39m: 	/view_task
+2023-02-06 14:47:04 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by='11'
+2023-02-06 14:48:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:48:08 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:48:13 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:13:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:48:36 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:48:39 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:13:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:48:41 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:48:42 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:48:45 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:48:49 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:48:57 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:49:01 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:49:06 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:49:07 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:49:19 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:49:24 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:49:32 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:49:41 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:49:45 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:49:53 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:50:02 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:50:05 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:50:06 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:50:08 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:50:10 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:51:28 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:51:29 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:51:31 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:51:31 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:51:36 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:53:25 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:53:30 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:53:52 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:53:57 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:54:00 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:54:22 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:54:27 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:54:30 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:54:32 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:14:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:54:36 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:54:37 [32minfo[39m: 	Requested URL : 
+2023-02-06 14:54:37 [32minfo[39m: 	/names_basedon_role
+2023-02-06 14:54:37 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=1;
+2023-02-06 14:55:21 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:55:27 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:15:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-06 14:55:32 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:140
+exports. = (async (req, res) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:55:33 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:140
+exports. = (async (req, res) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:55:40 [31merror[39m: 	uncaughtException: Unexpected token '('
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:143
+    adminModel.(logged_role_id, async (err, Data18, flag) => {
+               ^
+
+SyntaxError: Unexpected token '('
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 14:55:42 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:55:47 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:55:56 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:55:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:56:12 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:58:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:58:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:58:35 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:58:52 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:58:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:05 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:07 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:19 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:26 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 14:59:37 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:00:04 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:00:07 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:00:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:00:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:00:19 [31merror[39m: 	uncaughtException: Identifier 'selected_role_id' has already been declared
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:142
+    let selected_role_id = req.body.selected_role_id;
+        ^
+
+SyntaxError: Identifier 'selected_role_id' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 15:00:24 [31merror[39m: 	uncaughtException: Identifier 'selected_role_id' has already been declared
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:143
+    let selected_role_id = req.body.selected_role_id;
+        ^
+
+SyntaxError: Identifier 'selected_role_id' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 15:00:25 [31merror[39m: 	uncaughtException: Identifier 'selected_role_id' has already been declared
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:143
+    let selected_role_id = req.body.selected_role_id;
+        ^
+
+SyntaxError: Identifier 'selected_role_id' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 15:00:28 [31merror[39m: 	uncaughtException: Identifier 'selected_role_id' has already been declared
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:144
+    let selected_role_id = req.body.selected_role_id;
+        ^
+
+SyntaxError: Identifier 'selected_role_id' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 15:00:29 [31merror[39m: 	uncaughtException: Identifier 'selected_role_id' has already been declared
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:144
+    let selected_role_id = req.body.selected_role_id;
+        ^
+
+SyntaxError: Identifier 'selected_role_id' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 15:00:32 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:00:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:01:41 [32minfo[39m: 	Requested URL : 
+2023-02-06 15:01:41 [32minfo[39m: 	/names_basedon_role
+2023-02-06 15:01:41 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=1;
+2023-02-06 15:02:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:02:40 [32minfo[39m: 	Requested URL : 
+2023-02-06 15:02:40 [32minfo[39m: 	/roles
+2023-02-06 15:02:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 15:02:56 [32minfo[39m: 	/send_message
+2023-02-06 15:02:56 [32minfo[39m: 	insert into send_message_dtl_t (role_id, name, message, created_by) values(1, '11', 'You are under arrest. Do ur own business', 11)
+2023-02-06 15:03:22 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:158
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 15:03:23 [31merror[39m: 	uncaughtException: missing ) after argument list
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:158
+        }
+        ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-06 15:03:27 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:03:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:03:30 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:03:32 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:03:35 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:03:39 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:03:46 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:04:05 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:04:09 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:04:11 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:04:45 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:04:48 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:04:50 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:04:52 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 15:04:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 15:04:52 [32minfo[39m: 	/send_message
+2023-02-06 15:04:52 [32minfo[39m: 	insert into send_message_dtl_t (role_id, name, message, created_by) values(1, '11', 'You are under arrest. Do ur own business', 11)
+2023-02-06 15:04:52 [32minfo[39m: 	select * from send_message_dtl_t where id=2 
+2023-02-06 16:08:04 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:08:04 [32minfo[39m: 	/roles
+2023-02-06 16:08:04 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 16:08:26 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:08:26 [32minfo[39m: 	/login
+2023-02-06 16:08:26 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 16:08:26 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 16:09:09 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:09:09 [32minfo[39m: 	/login
+2023-02-06 16:09:09 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 16:09:09 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 16:09:57 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:09:57 [32minfo[39m: 	/creating_task
+2023-02-06 16:09:57 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 3' and task_desc='TEsting the task 1 by admin'
+2023-02-06 16:09:57 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('Task name 3', 'TEsting the task 1 by admin', 1, 11)
+2023-02-06 16:09:57 [32minfo[39m: 	select * from tasks_dlt_t where id=3
+2023-02-06 16:10:01 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:10:01 [32minfo[39m: 	/creating_task
+2023-02-06 16:10:01 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 3' and task_desc='TEsting the task 1 by admin'
+2023-02-06 16:10:11 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:10:11 [32minfo[39m: 	/creating_task
+2023-02-06 16:10:11 [32minfo[39m: 	select * from tasks_dlt_t where task_name='Task name 3' and task_desc='TEsting the task 1 by admin.'
+2023-02-06 16:10:11 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('Task name 3', 'TEsting the task 1 by admin.', 1, 11)
+2023-02-06 16:10:11 [32minfo[39m: 	select * from tasks_dlt_t where id=4
+2023-02-06 16:10:21 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:10:21 [32minfo[39m: 	/view_task
+2023-02-06 16:10:21 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by='11'
+2023-02-06 16:10:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:10:35 [32minfo[39m: 	/roles
+2023-02-06 16:10:35 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 16:11:18 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:11:18 [32minfo[39m: 	/roles
+2023-02-06 16:11:18 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 16:11:47 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:11:47 [32minfo[39m: 	/names_basedon_role
+2023-02-06 16:11:47 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=1;
+2023-02-06 16:11:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:11:52 [32minfo[39m: 	/names_basedon_role
+2023-02-06 16:11:52 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-06 16:12:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:12:02 [32minfo[39m: 	/names_basedon_role
+2023-02-06 16:12:02 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=1;
+2023-02-06 16:12:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:12:35 [32minfo[39m: 	/send_message
+2023-02-06 16:12:35 [32minfo[39m: 	insert into send_message_dtl_t (role_id, name, message, created_by) values(1, '11', 'You are under arrest. Do ur own business', 11)
+2023-02-06 16:12:35 [32minfo[39m: 	select * from send_message_dtl_t where id=3 
+2023-02-06 16:14:10 [32minfo[39m: 	Requested URL : 
+2023-02-06 16:14:10 [32minfo[39m: 	/view_task
+2023-02-06 16:14:10 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by='11'
+2023-02-06 17:27:19 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:27:19 [32minfo[39m: 	/login
+2023-02-06 17:27:19 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:27:19 [32minfo[39m: 	/login
+2023-02-06 17:27:19 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='hjg'
+2023-02-06 17:45:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:45:28 [32minfo[39m: 	/login
+2023-02-06 17:45:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:45:28 [32minfo[39m: 	/login
+2023-02-06 17:45:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:45:28 [32minfo[39m: 	/login
+2023-02-06 17:45:28 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 17:45:28 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 17:45:28 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 17:45:28 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 17:49:16 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:49:16 [32minfo[39m: 	/admincreateUser
+2023-02-06 17:49:16 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and role=1 and phone_no='1234567';
+2023-02-06 17:57:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:57:35 [32minfo[39m: 	/login
+2023-02-06 17:57:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:57:35 [32minfo[39m: 	/login
+2023-02-06 17:57:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:57:35 [32minfo[39m: 	/login
+2023-02-06 17:57:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:57:35 [32minfo[39m: 	/login
+2023-02-06 17:57:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com'
+2023-02-06 17:57:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com'
+2023-02-06 17:57:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and pwd='1234567' 
+2023-02-06 17:57:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and pwd='1234567' 
+2023-02-06 17:57:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:57:50 [32minfo[39m: 	/login
+2023-02-06 17:57:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:57:50 [32minfo[39m: 	/login
+2023-02-06 17:57:50 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com'
+2023-02-06 17:57:50 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and pwd='Test@123' 
+2023-02-06 17:57:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:57:50 [32minfo[39m: 	/login
+2023-02-06 17:57:50 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com'
+2023-02-06 17:57:50 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and pwd='Test@123' 
+2023-02-06 17:58:05 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:58:05 [32minfo[39m: 	/login
+2023-02-06 17:58:05 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:58:05 [32minfo[39m: 	/login
+2023-02-06 17:58:05 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com'
+2023-02-06 17:58:05 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and pwd='Test@123' 
+2023-02-06 17:58:05 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:58:05 [32minfo[39m: 	/login
+2023-02-06 17:58:05 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com'
+2023-02-06 17:58:05 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh970098@gmail.com' and pwd='Test@123' 
+2023-02-06 17:59:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:59:02 [32minfo[39m: 	/login
+2023-02-06 17:59:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:59:02 [32minfo[39m: 	/login
+2023-02-06 17:59:02 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 17:59:02 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 17:59:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:59:02 [32minfo[39m: 	/login
+2023-02-06 17:59:02 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 17:59:02 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 17:59:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:59:35 [32minfo[39m: 	/login
+2023-02-06 17:59:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:59:35 [32minfo[39m: 	/login
+2023-02-06 17:59:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:59:35 [32minfo[39m: 	/login
+2023-02-06 17:59:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 17:59:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 17:59:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 17:59:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 17:59:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:59:35 [32minfo[39m: 	/login
+2023-02-06 17:59:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 17:59:35 [32minfo[39m: 	/login
+2023-02-06 17:59:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 17:59:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 17:59:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 17:59:35 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 18:00:39 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:00:39 [32minfo[39m: 	/login
+2023-02-06 18:00:39 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:00:39 [32minfo[39m: 	/login
+2023-02-06 18:00:39 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:00:39 [32minfo[39m: 	/login
+2023-02-06 18:00:39 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:00:39 [32minfo[39m: 	/login
+2023-02-06 18:00:39 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=''
+2023-02-06 18:00:39 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=''
+2023-02-06 18:01:03 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:01:03 [32minfo[39m: 	/login
+2023-02-06 18:01:03 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:01:03 [32minfo[39m: 	/login
+2023-02-06 18:01:03 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 18:01:03 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 18:01:03 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:01:03 [32minfo[39m: 	/login
+2023-02-06 18:01:03 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-06 18:01:03 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-06 18:01:20 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:01:20 [32minfo[39m: 	/roles
+2023-02-06 18:01:20 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:01:20 [32minfo[39m: 	/roles
+2023-02-06 18:01:20 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:01:55 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:01:55 [32minfo[39m: 	/roles
+2023-02-06 18:01:55 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:01:55 [32minfo[39m: 	/roles
+2023-02-06 18:01:55 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:02:08 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:02:08 [32minfo[39m: 	/roles
+2023-02-06 18:02:08 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:02:08 [32minfo[39m: 	/roles
+2023-02-06 18:02:08 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:02:33 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:02:33 [32minfo[39m: 	/roles
+2023-02-06 18:02:33 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:02:33 [32minfo[39m: 	/roles
+2023-02-06 18:02:33 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:02:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:02:56 [32minfo[39m: 	/roles
+2023-02-06 18:02:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:02:56 [32minfo[39m: 	/roles
+2023-02-06 18:02:56 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:03:27 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:03:27 [32minfo[39m: 	/roles
+2023-02-06 18:03:27 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:03:27 [32minfo[39m: 	/roles
+2023-02-06 18:03:27 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:03:38 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:03:38 [32minfo[39m: 	/roles
+2023-02-06 18:03:38 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:03:38 [32minfo[39m: 	/roles
+2023-02-06 18:03:38 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:04:11 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:04:11 [32minfo[39m: 	/roles
+2023-02-06 18:04:11 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:04:11 [32minfo[39m: 	/roles
+2023-02-06 18:04:11 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:05:05 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:05 [32minfo[39m: 	/roles
+2023-02-06 18:05:05 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:05 [32minfo[39m: 	/roles
+2023-02-06 18:05:05 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:05:20 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:20 [32minfo[39m: 	/roles
+2023-02-06 18:05:21 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:21 [32minfo[39m: 	/roles
+2023-02-06 18:05:21 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:05:38 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:38 [32minfo[39m: 	/roles
+2023-02-06 18:05:38 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:38 [32minfo[39m: 	/roles
+2023-02-06 18:05:38 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:05:45 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:45 [32minfo[39m: 	/roles
+2023-02-06 18:05:45 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:45 [32minfo[39m: 	/roles
+2023-02-06 18:05:45 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:05:49 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:49 [32minfo[39m: 	/roles
+2023-02-06 18:05:49 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:05:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:56 [32minfo[39m: 	/roles
+2023-02-06 18:05:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:56 [32minfo[39m: 	/roles
+2023-02-06 18:05:56 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:05:58 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:05:58 [32minfo[39m: 	/roles
+2023-02-06 18:05:58 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:06:19 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:19 [32minfo[39m: 	/roles
+2023-02-06 18:06:19 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:19 [32minfo[39m: 	/roles
+2023-02-06 18:06:19 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:06:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:34 [32minfo[39m: 	/roles
+2023-02-06 18:06:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:34 [32minfo[39m: 	/roles
+2023-02-06 18:06:34 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:06:38 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:38 [32minfo[39m: 	/roles
+2023-02-06 18:06:38 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:06:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:42 [32minfo[39m: 	/roles
+2023-02-06 18:06:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:42 [32minfo[39m: 	/roles
+2023-02-06 18:06:42 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:06:48 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:48 [32minfo[39m: 	/roles
+2023-02-06 18:06:48 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:48 [32minfo[39m: 	/roles
+2023-02-06 18:06:48 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:06:54 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:54 [32minfo[39m: 	/roles
+2023-02-06 18:06:54 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:54 [32minfo[39m: 	/roles
+2023-02-06 18:06:54 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:06:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:56 [32minfo[39m: 	/roles
+2023-02-06 18:06:56 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:06:58 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:06:58 [32minfo[39m: 	/roles
+2023-02-06 18:06:58 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:07:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:02 [32minfo[39m: 	/roles
+2023-02-06 18:07:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:02 [32minfo[39m: 	/roles
+2023-02-06 18:07:02 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:07:06 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:06 [32minfo[39m: 	/roles
+2023-02-06 18:07:06 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:07:12 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:12 [32minfo[39m: 	/roles
+2023-02-06 18:07:12 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:12 [32minfo[39m: 	/roles
+2023-02-06 18:07:13 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:07:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:28 [32minfo[39m: 	/roles
+2023-02-06 18:07:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:28 [32minfo[39m: 	/roles
+2023-02-06 18:07:28 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:07:51 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:51 [32minfo[39m: 	/roles
+2023-02-06 18:07:51 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:51 [32minfo[39m: 	/roles
+2023-02-06 18:07:51 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:07:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:07:52 [32minfo[39m: 	/roles
+2023-02-06 18:07:52 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:09:09 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:09:09 [32minfo[39m: 	/roles
+2023-02-06 18:09:09 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:09:09 [32minfo[39m: 	/roles
+2023-02-06 18:09:09 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:09:15 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:09:15 [32minfo[39m: 	/roles
+2023-02-06 18:09:15 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:09:15 [32minfo[39m: 	/roles
+2023-02-06 18:09:15 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:09:22 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:09:22 [32minfo[39m: 	/roles
+2023-02-06 18:09:22 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:09:22 [32minfo[39m: 	/roles
+2023-02-06 18:09:22 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:09:54 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:09:54 [32minfo[39m: 	/roles
+2023-02-06 18:09:54 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:09:54 [32minfo[39m: 	/roles
+2023-02-06 18:09:54 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:10:27 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:10:27 [32minfo[39m: 	/roles
+2023-02-06 18:10:27 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:10:27 [32minfo[39m: 	/roles
+2023-02-06 18:10:27 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:10:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:10:34 [32minfo[39m: 	/roles
+2023-02-06 18:10:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:10:34 [32minfo[39m: 	/roles
+2023-02-06 18:10:34 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:10:37 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:10:37 [32minfo[39m: 	/roles
+2023-02-06 18:10:37 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:10:47 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:10:47 [32minfo[39m: 	/roles
+2023-02-06 18:10:47 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:10:47 [32minfo[39m: 	/roles
+2023-02-06 18:10:47 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:10:58 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:10:58 [32minfo[39m: 	/roles
+2023-02-06 18:10:58 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:10:58 [32minfo[39m: 	/roles
+2023-02-06 18:10:58 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:11:01 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:11:01 [32minfo[39m: 	/roles
+2023-02-06 18:11:01 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:11:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:11:28 [32minfo[39m: 	/roles
+2023-02-06 18:11:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:11:28 [32minfo[39m: 	/roles
+2023-02-06 18:11:28 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:11:37 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:11:37 [32minfo[39m: 	/roles
+2023-02-06 18:11:37 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:11:37 [32minfo[39m: 	/roles
+2023-02-06 18:11:37 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:11:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:11:42 [32minfo[39m: 	/roles
+2023-02-06 18:11:42 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:12:06 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:12:06 [32minfo[39m: 	/roles
+2023-02-06 18:12:06 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:12:06 [32minfo[39m: 	/roles
+2023-02-06 18:12:06 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:32:14 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:32:14 [32minfo[39m: 	/login
+2023-02-06 18:32:14 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:32:14 [32minfo[39m: 	/login
+2023-02-06 18:32:14 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:32:14 [32minfo[39m: 	/login
+2023-02-06 18:32:14 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:32:14 [32minfo[39m: 	/login
+2023-02-06 18:32:14 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=''
+2023-02-06 18:32:14 [32minfo[39m: 	SELECT * FROM users_dtl_t where email=''
+2023-02-06 18:32:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:32:25 [32minfo[39m: 	/roles
+2023-02-06 18:32:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:32:25 [32minfo[39m: 	/roles
+2023-02-06 18:32:25 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:33:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:33:28 [32minfo[39m: 	/roles
+2023-02-06 18:33:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:33:28 [32minfo[39m: 	/roles
+2023-02-06 18:33:28 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:33:33 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:33:33 [32minfo[39m: 	/roles
+2023-02-06 18:33:33 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:33:39 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:33:39 [32minfo[39m: 	/roles
+2023-02-06 18:33:39 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:33:39 [32minfo[39m: 	/roles
+2023-02-06 18:33:39 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:33:57 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:33:57 [32minfo[39m: 	/roles
+2023-02-06 18:33:57 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:33:57 [32minfo[39m: 	/roles
+2023-02-06 18:33:57 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:34:58 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:34:58 [32minfo[39m: 	/roles
+2023-02-06 18:34:58 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:34:58 [32minfo[39m: 	/roles
+2023-02-06 18:34:58 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:35:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:35:02 [32minfo[39m: 	/roles
+2023-02-06 18:35:02 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:35:13 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:35:13 [32minfo[39m: 	/roles
+2023-02-06 18:35:13 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:35:13 [32minfo[39m: 	/roles
+2023-02-06 18:35:13 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:35:14 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:35:14 [32minfo[39m: 	/roles
+2023-02-06 18:35:14 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:35:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:35:52 [32minfo[39m: 	/roles
+2023-02-06 18:35:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:35:52 [32minfo[39m: 	/roles
+2023-02-06 18:35:52 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:36:03 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:36:03 [32minfo[39m: 	/roles
+2023-02-06 18:36:03 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:36:03 [32minfo[39m: 	/roles
+2023-02-06 18:36:03 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:36:09 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:36:09 [32minfo[39m: 	/roles
+2023-02-06 18:36:09 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:36:09 [32minfo[39m: 	/roles
+2023-02-06 18:36:09 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:37:17 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:37:17 [32minfo[39m: 	/roles
+2023-02-06 18:37:17 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:37:17 [32minfo[39m: 	/roles
+2023-02-06 18:37:17 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:38:07 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:38:07 [32minfo[39m: 	/roles
+2023-02-06 18:38:07 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:38:07 [32minfo[39m: 	/roles
+2023-02-06 18:38:07 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:39:11 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:39:11 [32minfo[39m: 	/roles
+2023-02-06 18:39:11 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:39:11 [32minfo[39m: 	/roles
+2023-02-06 18:39:11 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:39:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:39:25 [32minfo[39m: 	/roles
+2023-02-06 18:39:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:39:25 [32minfo[39m: 	/roles
+2023-02-06 18:39:25 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:39:36 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:39:36 [32minfo[39m: 	/roles
+2023-02-06 18:39:36 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:39:36 [32minfo[39m: 	/roles
+2023-02-06 18:39:36 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:41:43 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:41:43 [32minfo[39m: 	/roles
+2023-02-06 18:41:43 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:41:43 [32minfo[39m: 	/roles
+2023-02-06 18:41:43 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:41:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:41:50 [32minfo[39m: 	/roles
+2023-02-06 18:41:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:41:50 [32minfo[39m: 	/roles
+2023-02-06 18:41:50 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:42:00 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:42:00 [32minfo[39m: 	/roles
+2023-02-06 18:42:00 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:42:00 [32minfo[39m: 	/roles
+2023-02-06 18:42:00 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:42:15 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:42:15 [32minfo[39m: 	/roles
+2023-02-06 18:42:15 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:42:15 [32minfo[39m: 	/roles
+2023-02-06 18:42:15 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:42:17 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:42:17 [32minfo[39m: 	/roles
+2023-02-06 18:42:17 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:42:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:42:52 [32minfo[39m: 	/roles
+2023-02-06 18:42:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:42:52 [32minfo[39m: 	/roles
+2023-02-06 18:42:52 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:45:21 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:45:21 [32minfo[39m: 	/roles
+2023-02-06 18:45:21 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:45:21 [32minfo[39m: 	/roles
+2023-02-06 18:45:21 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:45:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:45:28 [32minfo[39m: 	/roles
+2023-02-06 18:45:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:45:28 [32minfo[39m: 	/roles
+2023-02-06 18:45:28 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:45:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:45:35 [32minfo[39m: 	/roles
+2023-02-06 18:45:35 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:45:35 [32minfo[39m: 	/roles
+2023-02-06 18:45:35 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:45:48 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:45:48 [32minfo[39m: 	/roles
+2023-02-06 18:45:48 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:45:48 [32minfo[39m: 	/roles
+2023-02-06 18:45:48 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:47:49 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:47:49 [32minfo[39m: 	/roles
+2023-02-06 18:47:49 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:47:49 [32minfo[39m: 	/roles
+2023-02-06 18:47:49 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:48:10 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:48:10 [32minfo[39m: 	/roles
+2023-02-06 18:48:10 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:48:10 [32minfo[39m: 	/roles
+2023-02-06 18:48:10 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:48:15 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:48:15 [32minfo[39m: 	/roles
+2023-02-06 18:48:15 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:54:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:54:02 [32minfo[39m: 	/roles
+2023-02-06 18:54:02 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:54:02 [32minfo[39m: 	/roles
+2023-02-06 18:54:02 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:54:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:54:52 [32minfo[39m: 	/roles
+2023-02-06 18:54:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:54:52 [32minfo[39m: 	/roles
+2023-02-06 18:54:52 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:55:00 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:55:00 [32minfo[39m: 	/roles
+2023-02-06 18:55:00 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:55:00 [32minfo[39m: 	/roles
+2023-02-06 18:55:00 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:55:14 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:55:14 [32minfo[39m: 	/roles
+2023-02-06 18:55:14 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:55:14 [32minfo[39m: 	/roles
+2023-02-06 18:55:14 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:55:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:55:42 [32minfo[39m: 	/roles
+2023-02-06 18:55:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:55:42 [32minfo[39m: 	/roles
+2023-02-06 18:55:42 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:55:51 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:55:51 [32minfo[39m: 	/roles
+2023-02-06 18:55:51 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:55:51 [32minfo[39m: 	/roles
+2023-02-06 18:55:51 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:56:20 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:56:20 [32minfo[39m: 	/roles
+2023-02-06 18:56:20 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:56:20 [32minfo[39m: 	/roles
+2023-02-06 18:56:20 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:56:26 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:56:26 [32minfo[39m: 	/roles
+2023-02-06 18:56:26 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:56:26 [32minfo[39m: 	/roles
+2023-02-06 18:56:26 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:56:32 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:56:32 [32minfo[39m: 	/roles
+2023-02-06 18:56:32 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:56:32 [32minfo[39m: 	/roles
+2023-02-06 18:56:32 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:57:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:57:50 [32minfo[39m: 	/roles
+2023-02-06 18:57:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:57:50 [32minfo[39m: 	/roles
+2023-02-06 18:57:50 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:57:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:57:56 [32minfo[39m: 	/roles
+2023-02-06 18:57:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:57:56 [32minfo[39m: 	/roles
+2023-02-06 18:57:56 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 18:58:12 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:58:12 [32minfo[39m: 	/roles
+2023-02-06 18:58:12 [32minfo[39m: 	Requested URL : 
+2023-02-06 18:58:12 [32minfo[39m: 	/roles
+2023-02-06 18:58:12 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 19:00:21 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:00:21 [32minfo[39m: 	/roles
+2023-02-06 19:00:21 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:00:21 [32minfo[39m: 	/roles
+2023-02-06 19:00:21 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 19:02:32 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:02:32 [32minfo[39m: 	/roles
+2023-02-06 19:02:32 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:02:32 [32minfo[39m: 	/roles
+2023-02-06 19:02:32 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 19:04:59 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:04:59 [32minfo[39m: 	/roles
+2023-02-06 19:04:59 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:04:59 [32minfo[39m: 	/roles
+2023-02-06 19:04:59 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 19:05:33 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:05:33 [32minfo[39m: 	/admincreateUser
+2023-02-06 19:05:33 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:05:33 [32minfo[39m: 	/admincreateUser
+2023-02-06 19:05:33 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and role=2 and phone_no='213123';
+2023-02-06 19:05:33 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on) values("mahesh@gmail.com","Test","2","qwe","sad","213123","12");
+2023-02-06 19:05:33 [32minfo[39m: 	select * from users_dtl_t where id=12;
+2023-02-06 19:05:59 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:05:59 [32minfo[39m: 	/admincreateUser
+2023-02-06 19:05:59 [32minfo[39m: 	Requested URL : 
+2023-02-06 19:05:59 [32minfo[39m: 	/admincreateUser
+2023-02-06 19:05:59 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and role=2 and phone_no='213123';
+2023-02-06 22:21:28 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-06 22:22:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:22:42 [32minfo[39m: 	/login
+2023-02-06 22:22:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:22:42 [32minfo[39m: 	/login
+2023-02-06 22:22:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:22:42 [32minfo[39m: 	/login
+2023-02-06 22:22:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:22:42 [32minfo[39m: 	/login
+2023-02-06 22:22:42 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com'
+2023-02-06 22:22:42 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com'
+2023-02-06 22:22:42 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and pwd='Test' 
+2023-02-06 22:22:42 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and pwd='Test' 
+2023-02-06 22:23:01 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:23:01 [32minfo[39m: 	/roles
+2023-02-06 22:24:07 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:24:07 [32minfo[39m: 	/roles
+2023-02-06 22:24:07 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:24:07 [32minfo[39m: 	/roles
+2023-02-06 22:24:07 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 22:24:58 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:24:58 [32minfo[39m: 	/roles
+2023-02-06 22:24:58 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:24:58 [32minfo[39m: 	/roles
+2023-02-06 22:24:58 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 22:28:47 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:28:47 [32minfo[39m: 	/creating_task
+2023-02-06 22:49:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:49:28 [32minfo[39m: 	/roles
+2023-02-06 22:49:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 22:49:28 [32minfo[39m: 	/roles
+2023-02-06 22:49:28 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:25:44 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:25:44 [32minfo[39m: 	/roles
+2023-02-06 23:25:44 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:25:44 [32minfo[39m: 	/roles
+2023-02-06 23:25:44 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:28:04 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:28:04 [32minfo[39m: 	/roles
+2023-02-06 23:28:04 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:28:04 [32minfo[39m: 	/roles
+2023-02-06 23:28:04 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:32:46 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:32:46 [32minfo[39m: 	/roles
+2023-02-06 23:32:51 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:32:51 [32minfo[39m: 	/roles
+2023-02-06 23:32:51 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:32:51 [32minfo[39m: 	/roles
+2023-02-06 23:32:51 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:34:53 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:34:53 [32minfo[39m: 	/view_task
+2023-02-06 23:34:53 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by='11'
+2023-02-06 23:35:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:35:25 [32minfo[39m: 	/roles
+2023-02-06 23:35:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:35:25 [32minfo[39m: 	/roles
+2023-02-06 23:35:25 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:35:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:35:50 [32minfo[39m: 	/roles
+2023-02-06 23:35:50 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:35:50 [32minfo[39m: 	/roles
+2023-02-06 23:35:50 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:38:49 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:38:49 [32minfo[39m: 	/view_task
+2023-02-06 23:38:49 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:38:49 [32minfo[39m: 	/roles
+2023-02-06 23:38:49 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:38:49 [32minfo[39m: 	/view_task
+2023-02-06 23:38:49 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:38:49 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:38:49 [32minfo[39m: 	/roles
+2023-02-06 23:38:49 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:46:23 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:46:23 [32minfo[39m: 	/view_task
+2023-02-06 23:46:23 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:46:23 [32minfo[39m: 	/view_task
+2023-02-06 23:46:23 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:46:23 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:46:23 [32minfo[39m: 	/roles
+2023-02-06 23:46:23 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:46:23 [32minfo[39m: 	/roles
+2023-02-06 23:46:23 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:46:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:46:34 [32minfo[39m: 	/view_task
+2023-02-06 23:46:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:46:34 [32minfo[39m: 	/view_task
+2023-02-06 23:46:34 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:46:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:46:34 [32minfo[39m: 	/roles
+2023-02-06 23:46:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:46:34 [32minfo[39m: 	/roles
+2023-02-06 23:46:34 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:47:06 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:47:06 [32minfo[39m: 	/view_task
+2023-02-06 23:47:06 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:47:06 [32minfo[39m: 	/view_task
+2023-02-06 23:47:06 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:47:06 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:47:06 [32minfo[39m: 	/roles
+2023-02-06 23:47:06 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:47:06 [32minfo[39m: 	/roles
+2023-02-06 23:47:06 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:49:11 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:49:11 [32minfo[39m: 	/view_task
+2023-02-06 23:49:11 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:49:11 [32minfo[39m: 	/view_task
+2023-02-06 23:49:11 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:49:11 [32minfo[39m: 	/roles
+2023-02-06 23:49:11 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:49:12 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:49:12 [32minfo[39m: 	/roles
+2023-02-06 23:49:12 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:49:36 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:49:36 [32minfo[39m: 	/view_task
+2023-02-06 23:49:36 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:49:36 [32minfo[39m: 	/view_task
+2023-02-06 23:49:36 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:49:36 [32minfo[39m: 	/roles
+2023-02-06 23:49:36 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:49:36 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:49:36 [32minfo[39m: 	/roles
+2023-02-06 23:49:36 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:50:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:50:28 [32minfo[39m: 	/view_task
+2023-02-06 23:50:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:50:28 [32minfo[39m: 	/view_task
+2023-02-06 23:50:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:50:28 [32minfo[39m: 	/roles
+2023-02-06 23:50:28 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:50:28 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:50:28 [32minfo[39m: 	/roles
+2023-02-06 23:50:28 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:51:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:51:25 [32minfo[39m: 	/view_task
+2023-02-06 23:51:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:51:25 [32minfo[39m: 	/roles
+2023-02-06 23:51:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:51:25 [32minfo[39m: 	/view_task
+2023-02-06 23:51:25 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:51:25 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:51:25 [32minfo[39m: 	/roles
+2023-02-06 23:51:25 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:52:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:52:34 [32minfo[39m: 	/view_task
+2023-02-06 23:52:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:52:34 [32minfo[39m: 	/view_task
+2023-02-06 23:52:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:52:34 [32minfo[39m: 	/roles
+2023-02-06 23:52:34 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:52:34 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:52:34 [32minfo[39m: 	/roles
+2023-02-06 23:52:34 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:52:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:52:52 [32minfo[39m: 	/view_task
+2023-02-06 23:52:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:52:52 [32minfo[39m: 	/view_task
+2023-02-06 23:52:52 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:52:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:52:52 [32minfo[39m: 	/roles
+2023-02-06 23:52:52 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:52:52 [32minfo[39m: 	/roles
+2023-02-06 23:52:52 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:54:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:54:56 [32minfo[39m: 	/view_task
+2023-02-06 23:54:56 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:54:56 [32minfo[39m: 	/view_task
+2023-02-06 23:54:56 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:54:57 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:54:57 [32minfo[39m: 	/roles
+2023-02-06 23:54:57 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:54:57 [32minfo[39m: 	/roles
+2023-02-06 23:54:57 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-06 23:55:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:55:42 [32minfo[39m: 	/view_task
+2023-02-06 23:55:42 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:55:42 [32minfo[39m: 	/view_task
+2023-02-06 23:55:42 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:55:47 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:55:47 [32minfo[39m: 	/view_task
+2023-02-06 23:55:47 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:55:47 [32minfo[39m: 	/roles
+2023-02-06 23:55:47 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:55:47 [32minfo[39m: 	/view_task
+2023-02-06 23:55:47 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=11
+2023-02-06 23:55:47 [32minfo[39m: 	Requested URL : 
+2023-02-06 23:55:47 [32minfo[39m: 	/roles
+2023-02-06 23:55:47 [32minfo[39m: 	SELECT * FROM roles_table where status=1;

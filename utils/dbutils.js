@@ -18,9 +18,9 @@ exports.execQuery = function (ConPool, Qry, cntxtDtls, values, callback) {
                       connection.release();                  // Release connection back to Pool  
                       if (err) { 
                         console.log("err: ",err)   
-                        email_service.error_email(`Error in DB ${cntxtDtls} Query: ${mysql.format(Qry, values)}, err :${err}`,"Local error", function (err, emailres) {
-                              logger.error("error email sent")
-                            })
+                        // email_service.error_email(`Error in DB ${cntxtDtls} Query: ${mysql.format(Qry, values)}, err :${err}`,"Local error", function (err, emailres) {
+                        //       logger.error("error email sent")
+                        //     })
                       //  console.warn(`ERror in DB ${cntxtDtls} Query: ${mysql.format(Qry, values)},err :${err}`)
                         callback(err, null); return; } // Handle Query Errors          
                       callback(false, rows);                 // Send the results back  
