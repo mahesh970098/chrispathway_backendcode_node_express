@@ -185,7 +185,24 @@ exports.send_message = (selected_role_id, selected_name, message, logged_user_id
         }
     })
 }
+exports.notification_display = (selected_role_id, logged_user_id, callback) => {
+    let cntxtDtls = "Get notification_display api";
+    QRY_TO_EXEC = `select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=?  and name=?;`
+    // let val = [selected_role_id, selected_name, message, logged_user_id]
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [selected_role_id, logged_user_id], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
 
+        }
+    })
+}
 exports.manage_roles_get = (callback) => {
     let cntxtDtls = "Get manage_roles_get api";
     QRY_TO_EXEC = `SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
@@ -215,7 +232,114 @@ exports.manage_roles_delete = (deleted_user_id, callback) => {
         else {
             callback(err, results)
             return
+        }
+    })
+}
+exports.advisor_todo_row_save = (student_interest, to_do_id, assign_checkbox, callback) => {
+    let cntxtDtls = "Get advisor_todo_row_save api";
+    let current_timestamp = moment().format('YYYY-MM-DD')
+    if (student_interest == "Yes") {
+        QRY_TO_EXEC = `update reverted_stud_csv_admin_t set row_time_save=?,u_ts=?,student_interest=?,assign_indicator=? where id in (?)`
+        dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [current_timestamp, current_timestamp, 'Yes', assign_checkbox,
+            to_do_id], function (err, results) {
+                if (err) {
+                    callback(err, 0)
+                    return
+                }
+                else {
+                    callback(err, results)
+                    return
+                }
+            })
+    }
+    else if (student_interest == "No") {
+        QRY_TO_EXEC = `update reverted_stud_csv_admin_t set checkbox_save=?,u_ts=?,student_interest=?,is_active=1,assigned_to=?,assigned_by=? where id in (?)`
+        dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [current_timestamp, current_timestamp, 'No', null, null, to_do_id], function (err, results) {
+            if (err) {
+                callback(err, 0)
+                return
+            }
+            else {
+                callback(err, results)
+                return
+            }
+        })
+    }
+    else {
+        QRY_TO_EXEC = `update reverted_stud_csv_admin_t set checkbox_save=?,u_ts=?,student_interest=?,is_active=1,assigned_to=?,assigned_by=? where id in (?)`
+        dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [current_timestamp, current_timestamp, 'Future Followup', null, null, to_do_id], function (err, results) {
+            if (err) {
+                callback(err, 0)
+                return
+            }
+            else {
+                callback(err, results)
+                return
+            }
+        })
+    }
 
+}
+
+
+exports.admin_csv_upload = (multiple_record_file, callback) => {
+    let cntxtDtls = "Get admin_csv_upload api";
+    QRY_TO_EXEC = `LOAD DATA LOCAL INFILE "filestorage/adminCSV/${multiple_record_file}" INTO TABLE reverted_stud_csv_admin_t 
+    FIELDS TERMINATED BY ',' 
+    LINES TERMINATED BY '\n' 
+    IGNORE 1 LINES
+    (Studen_Name, phone_no, email_id, country_interested);`
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
+
+        }
+    })
+}
+
+exports.reverted_stud_list_csv = (logged_user_id, role_id, callback) => {
+    let cntxtDtls = "Get reverted_stud_list_csv api";
+    let QRY_TO_EXEC = ''
+    if (role_id == 1) {
+        QRY_TO_EXEC = `select * from reverted_stud_csv_admin_t where is_active=1`
+    }
+    else {
+        QRY_TO_EXEC = `select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=${logged_user_id}`
+    }
+
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
+        }
+    })
+}
+
+exports.reverted_stud_save_button = (logged_user_id, selected_user_id, selected_checkbox_id, callback) => {
+    let cntxtDtls = "Get reverted_stud_save_button api";
+    //    selected_checkbox_id.forEach(async function(element,index){
+    //     element
+    //    })
+    // return
+    QRY_TO_EXEC = `update reverted_stud_csv_admin_t set is_active=0, assigned_to=${selected_user_id},assigned_by=${logged_user_id}
+    where id in (${selected_checkbox_id});`
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
         }
     })
 }

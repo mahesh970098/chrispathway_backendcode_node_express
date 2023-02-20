@@ -206,7 +206,22 @@ exports.send_message = (async (req, res) => {
         }
     });
 })
-
+exports.notification_display = (async (req, res) => {
+    let selected_role_id = req.body.selected_role_id;
+    let logged_user_id = req.body.logged_user_id;
+    console.log("hi")
+    adminModel.notification_display(selected_role_id, logged_user_id, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting notification_display ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "data": Data18 });
+            return;
+        }
+    });
+})
 exports.manage_roles_get = (async (req, res) => {
     console.log("hi")
     adminModel.manage_roles_get(async (err, Data18, flag) => {
@@ -233,6 +248,93 @@ exports.manage_roles_delete = (async (req, res) => {
         }
         else {
             res.send({ "result": "success", "Message": "User Deleted Successfully." });
+            return;
+        }
+    });
+})
+
+exports.advisor_todo_row_save= (async (req, res) => {
+    let student_interest = req.body.student_interest;
+    let to_do_id = req.body.to_do_id
+    let assign_checkbox = req.body.assign_checkbox
+    console.log("hi")
+    adminModel.advisor_todo_row_save(student_interest, to_do_id, assign_checkbox,async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting manage_roles_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "Message": "Submitted Successfully" });
+            return;
+        }
+    });
+})
+
+
+exports.admin_csv_upload = (async (req, res) => {
+    let current_timestamp = moment().format('YYYYMMDDHHmmss');
+    // console.log(req.files,"files log::::::::")
+    let multiple_record_file = current_timestamp + "_" + req.files.file_upload[0].originalname;
+    if(req.files)
+    {
+      if (!fs.existsSync("./filestorage/adminCSV")){
+        fs.mkdirSync("./filestorage/adminCSV", { recursive: true });
+    }
+    await fs.writeFile("./filestorage/adminCSV/" + current_timestamp + "_" + req.files.file_upload[0].originalname, req.files.file_upload[0].buffer,async function(err) {
+        if(err) {
+           logger.error('Error While Getting AssetDetails_Multiple_record %s', err);
+        res.send({ "code": stdCodes.message.serverError.code, "message": stdCodes.message.serverError.message });
+        return;
+        }
+        else{
+            console.log("hi", multiple_record_file)
+            adminModel.admin_csv_upload(multiple_record_file,async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting notification_display ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "message" :"File Uploaded Successfully"});
+            return;
+        }
+    });
+}
+        })
+    }
+})
+
+exports.reverted_stud_list_csv = (async (req, res) => {
+    console.log("hi")
+    let logged_user_id=req.body.logged_user_id;
+    let  role_id=req.body.role_id;
+    adminModel.reverted_stud_list_csv(logged_user_id, role_id,async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting reverted_stud_list_csv ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "data": Data18 });
+            return;
+        }
+    });
+})
+
+exports.reverted_stud_save_button= (async (req, res) => {
+    console.log("hi")
+    let logged_user_id = req.body.logged_user_id;
+    let selected_user_id = req.body.selected_user_id;
+    let selected_checkbox_id=req.body.selected_checkbox_id
+    adminModel.reverted_stud_save_button(logged_user_id, selected_user_id, selected_checkbox_id, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting reverted_stud_save_button ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "message":"Assigned Successfully" });
             return;
         }
     });

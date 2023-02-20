@@ -1,0 +1,1112 @@
+2023-02-19 00:48:21 [32minfo[39m: 	Requested URL : 
+2023-02-19 00:48:21 [32minfo[39m: 	/names_basedon_role
+2023-02-19 00:48:21 [32minfo[39m: 	Requested URL : 
+2023-02-19 00:48:21 [32minfo[39m: 	/names_basedon_role
+2023-02-19 00:48:21 [32minfo[39m: 	Requested URL : 
+2023-02-19 00:48:21 [32minfo[39m: 	/names_basedon_role
+2023-02-19 00:48:21 [32minfo[39m: 	Requested URL : 
+2023-02-19 00:48:21 [32minfo[39m: 	/names_basedon_role
+2023-02-19 00:48:21 [32minfo[39m: 	Requested URL : 
+2023-02-19 00:48:21 [32minfo[39m: 	/view_task
+2023-02-19 00:48:21 [32minfo[39m: 	Requested URL : 
+2023-02-19 00:48:21 [32minfo[39m: 	/names_basedon_role
+2023-02-19 00:48:21 [32minfo[39m: 	Requested URL : 
+2023-02-19 00:48:21 [32minfo[39m: 	/names_basedon_role
+2023-02-19 00:48:21 [32minfo[39m: 	Requested URL : 
+2023-02-19 00:48:21 [32minfo[39m: 	/roles
+2023-02-19 00:48:21 [32minfo[39m: 	Requested URL : 
+2023-02-19 00:48:21 [32minfo[39m: 	/view_task
+2023-02-19 00:48:21 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 00:48:21 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 00:48:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 00:48:22 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 00:48:22 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:20:02 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-19 18:25:12 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:12 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:25:13 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:13 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:25:13 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:13 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:25:13 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:13 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:25:13 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:13 [32minfo[39m: 	/view_task
+2023-02-19 18:25:13 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:13 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:25:13 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:13 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:25:13 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:13 [32minfo[39m: 	/roles
+2023-02-19 18:25:13 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:13 [32minfo[39m: 	/view_task
+2023-02-19 18:25:13 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:25:13 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:25:13 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:25:13 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:25:13 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:25:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:25:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:25:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:25:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:16 [32minfo[39m: 	/view_task
+2023-02-19 18:25:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:25:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:25:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:25:16 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:25:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:25:16 [32minfo[39m: 	/roles
+2023-02-19 18:25:16 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:26:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:26:53 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:26:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:26:53 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:26:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:26:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:26:53 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:26:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:26:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:26:53 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:26:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:26:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:26:53 [32minfo[39m: 	/view_task
+2023-02-19 18:26:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:26:53 [32minfo[39m: 	/view_task
+2023-02-19 18:26:53 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:26:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:26:53 [32minfo[39m: 	/roles
+2023-02-19 18:26:53 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:27:03 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:03 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:27:03 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:03 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:27:03 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:27:39 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:39 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:27:39 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:39 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:27:39 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:39 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:27:39 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:39 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:27:39 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:27:39 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:27:39 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:27:39 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:39 [32minfo[39m: 	/view_task
+2023-02-19 18:27:39 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:39 [32minfo[39m: 	/view_task
+2023-02-19 18:27:39 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:27:39 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:39 [32minfo[39m: 	/roles
+2023-02-19 18:27:39 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:27:54 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:54 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:27:54 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:27:54 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:27:54 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:33:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:34 [32minfo[39m: 	/view_task
+2023-02-19 18:33:34 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:33:34 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:33:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:34 [32minfo[39m: 	/view_task
+2023-02-19 18:33:34 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:33:34 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:33:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:34 [32minfo[39m: 	/roles
+2023-02-19 18:33:34 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:33:58 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:58 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:58 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:58 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:58 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:58 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:58 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:58 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:58 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:58 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:58 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:58 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:33:58 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:33:58 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:33:58 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:33:58 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:58 [32minfo[39m: 	/view_task
+2023-02-19 18:33:58 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:58 [32minfo[39m: 	/view_task
+2023-02-19 18:33:58 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:33:58 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:33:58 [32minfo[39m: 	/roles
+2023-02-19 18:33:58 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:35:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:35:24 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:35:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:35:24 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:35:24 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:35:42 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:35:42 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:35:42 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:35:42 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:35:42 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:35:42 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:35:42 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:35:42 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:35:42 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:35:42 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:35:42 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:35:42 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:35:42 [32minfo[39m: 	/view_task
+2023-02-19 18:35:42 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:35:42 [32minfo[39m: 	/view_task
+2023-02-19 18:35:42 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:35:42 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:35:42 [32minfo[39m: 	/roles
+2023-02-19 18:35:42 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:37:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:24 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:37:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:24 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:37:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:24 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:37:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:24 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:37:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:24 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:37:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:24 [32minfo[39m: 	/view_task
+2023-02-19 18:37:24 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:37:24 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:37:24 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:37:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:24 [32minfo[39m: 	/view_task
+2023-02-19 18:37:24 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:37:24 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:24 [32minfo[39m: 	/roles
+2023-02-19 18:37:24 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:37:38 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:38 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:37:38 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:37:38 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:37:38 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:38:07 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:38:07 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:38:07 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:38:07 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:38:07 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:38:07 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:38:07 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:38:07 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:38:07 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:38:07 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:38:07 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:38:07 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:38:07 [32minfo[39m: 	/view_task
+2023-02-19 18:38:07 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:38:07 [32minfo[39m: 	/view_task
+2023-02-19 18:38:07 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:38:07 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:38:07 [32minfo[39m: 	/roles
+2023-02-19 18:38:07 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:38:52 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:38:52 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:38:52 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:38:52 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:38:52 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:39:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:39:33 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:39:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:39:33 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:39:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:39:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:39:33 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:39:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:39:33 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:39:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:39:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:39:33 [32minfo[39m: 	/view_task
+2023-02-19 18:39:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:39:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:39:33 [32minfo[39m: 	/view_task
+2023-02-19 18:39:33 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:39:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:39:33 [32minfo[39m: 	/roles
+2023-02-19 18:39:33 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:41:27 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:41:27 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:41:27 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:41:27 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:41:27 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:41:27 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:41:27 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:41:27 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:41:27 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:41:27 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:41:27 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:41:27 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:41:27 [32minfo[39m: 	/view_task
+2023-02-19 18:41:27 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:41:27 [32minfo[39m: 	/view_task
+2023-02-19 18:41:27 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:41:27 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:41:27 [32minfo[39m: 	/roles
+2023-02-19 18:41:27 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:41:36 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:41:36 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:41:36 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:41:36 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:41:36 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:55:19 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:19 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:55:19 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:19 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:55:19 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:55:19 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:19 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:55:19 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:55:19 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:19 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:55:19 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:55:19 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:19 [32minfo[39m: 	/view_task
+2023-02-19 18:55:19 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:19 [32minfo[39m: 	/view_task
+2023-02-19 18:55:19 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:55:19 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:19 [32minfo[39m: 	/roles
+2023-02-19 18:55:19 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:55:25 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:25 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:55:25 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:25 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:55:25 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:25 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:55:25 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:25 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:55:25 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:25 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:55:25 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:25 [32minfo[39m: 	/view_task
+2023-02-19 18:55:25 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:55:25 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:55:25 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:55:25 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:25 [32minfo[39m: 	/view_task
+2023-02-19 18:55:25 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:55:25 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:25 [32minfo[39m: 	/roles
+2023-02-19 18:55:25 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:55:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:35 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:55:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:55:35 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:55:35 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:56:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:17 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:56:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:17 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:56:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:17 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:56:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:17 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:56:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:17 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:56:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:17 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:56:17 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:56:17 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:56:17 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:56:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:17 [32minfo[39m: 	/view_task
+2023-02-19 18:56:18 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:18 [32minfo[39m: 	/view_task
+2023-02-19 18:56:18 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:56:18 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:18 [32minfo[39m: 	/roles
+2023-02-19 18:56:18 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:56:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:36 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:56:36 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:56:36 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:56:36 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:58:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:00 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:00 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:58:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:00 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:58:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:00 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:58:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:00 [32minfo[39m: 	/view_task
+2023-02-19 18:58:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:00 [32minfo[39m: 	/view_task
+2023-02-19 18:58:00 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:58:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:00 [32minfo[39m: 	/roles
+2023-02-19 18:58:00 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:58:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:58:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:58:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:58:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:16 [32minfo[39m: 	/view_task
+2023-02-19 18:58:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:16 [32minfo[39m: 	/view_task
+2023-02-19 18:58:16 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:58:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:16 [32minfo[39m: 	/roles
+2023-02-19 18:58:16 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:58:20 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:20 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:20 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:58:20 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:20 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:20 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:58:20 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:20 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:58:20 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:58:20 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:20 [32minfo[39m: 	/view_task
+2023-02-19 18:58:20 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:58:20 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:20 [32minfo[39m: 	/roles
+2023-02-19 18:58:20 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:58:30 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:30 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:58:30 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:58:30 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:58:30 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:59:04 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:04 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:04 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:04 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:04 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:59:04 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:04 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:04 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:59:04 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:04 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:04 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:59:04 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:04 [32minfo[39m: 	/view_task
+2023-02-19 18:59:04 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:04 [32minfo[39m: 	/view_task
+2023-02-19 18:59:04 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:59:04 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:04 [32minfo[39m: 	/roles
+2023-02-19 18:59:04 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:59:12 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:12 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:59:12 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:12 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:59:12 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:59:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:33 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:33 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:59:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:33 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:59:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:33 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:59:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:33 [32minfo[39m: 	/view_task
+2023-02-19 18:59:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:33 [32minfo[39m: 	/view_task
+2023-02-19 18:59:33 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:59:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:33 [32minfo[39m: 	/roles
+2023-02-19 18:59:33 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 18:59:40 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:40 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:59:40 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:40 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 18:59:40 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 18:59:49 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:49 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:49 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:49 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:49 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 18:59:49 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:49 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:49 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 18:59:49 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:49 [32minfo[39m: 	/names_basedon_role
+2023-02-19 18:59:49 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 18:59:49 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:49 [32minfo[39m: 	/view_task
+2023-02-19 18:59:49 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:49 [32minfo[39m: 	/view_task
+2023-02-19 18:59:49 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 18:59:49 [32minfo[39m: 	Requested URL : 
+2023-02-19 18:59:49 [32minfo[39m: 	/roles
+2023-02-19 18:59:49 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:00:23 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:00:23 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:00:23 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:00:23 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:00:23 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 19:00:59 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:00:59 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:00:59 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:00:59 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:00:59 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:00:59 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:00:59 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:00:59 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:00:59 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:00:59 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:00:59 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:00:59 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:00:59 [32minfo[39m: 	/view_task
+2023-02-19 19:00:59 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:00:59 [32minfo[39m: 	/view_task
+2023-02-19 19:00:59 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:00:59 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:00:59 [32minfo[39m: 	/roles
+2023-02-19 19:00:59 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:01:09 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:09 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:09 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:09 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:09 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:01:09 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:09 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:09 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:01:09 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:09 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:09 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:01:09 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:09 [32minfo[39m: 	/view_task
+2023-02-19 19:01:09 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:09 [32minfo[39m: 	/view_task
+2023-02-19 19:01:09 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:01:09 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:09 [32minfo[39m: 	/roles
+2023-02-19 19:01:09 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:01:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:01:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:01:16 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:16 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:01:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:17 [32minfo[39m: 	/view_task
+2023-02-19 19:01:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:17 [32minfo[39m: 	/view_task
+2023-02-19 19:01:17 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:01:17 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:17 [32minfo[39m: 	/roles
+2023-02-19 19:01:17 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:01:26 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:26 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:26 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:26 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:26 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:01:26 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:26 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:26 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:01:26 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:26 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:01:26 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:01:26 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:26 [32minfo[39m: 	/view_task
+2023-02-19 19:01:26 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:26 [32minfo[39m: 	/view_task
+2023-02-19 19:01:26 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:01:27 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:27 [32minfo[39m: 	/roles
+2023-02-19 19:01:27 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:01:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:35 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:01:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:01:35 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:01:35 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 19:02:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:02:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:02:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:02:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:02:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:02:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:02:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:02:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:22 [32minfo[39m: 	/view_task
+2023-02-19 19:02:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:22 [32minfo[39m: 	/view_task
+2023-02-19 19:02:22 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:02:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:22 [32minfo[39m: 	/roles
+2023-02-19 19:02:22 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:02:29 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:29 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:02:29 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:29 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:02:29 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 19:02:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:46 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:02:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:46 [32minfo[39m: 	/view_task
+2023-02-19 19:02:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:46 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:02:46 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:02:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:46 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:02:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:46 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:02:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:46 [32minfo[39m: 	/view_task
+2023-02-19 19:02:46 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:02:46 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:02:46 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:02:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:46 [32minfo[39m: 	/roles
+2023-02-19 19:02:46 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:02:55 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:55 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:02:55 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:02:55 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:02:55 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 19:03:45 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:45 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:03:45 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:45 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:03:45 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:03:45 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:45 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:03:45 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:03:45 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:45 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:03:45 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:03:45 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:45 [32minfo[39m: 	/view_task
+2023-02-19 19:03:45 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:45 [32minfo[39m: 	/view_task
+2023-02-19 19:03:45 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:03:45 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:45 [32minfo[39m: 	/roles
+2023-02-19 19:03:45 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:03:48 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:48 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:03:48 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:48 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:03:48 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:03:48 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:03:48 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:48 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:03:48 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:03:48 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:48 [32minfo[39m: 	/view_task
+2023-02-19 19:03:48 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:03:48 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:03:48 [32minfo[39m: 	/roles
+2023-02-19 19:03:48 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:04:04 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:04:04 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:04:04 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:04:04 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:04:04 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 19:04:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:04:33 [32minfo[39m: 	/admin_csv_upload
+2023-02-19 19:04:33 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'file_upload')
+TypeError: Cannot read properties of undefined (reading 'file_upload')
+    at exports.admin_csv_upload (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:278:68)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (E:\ALL-Data\seedfund\AACS\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+2023-02-19 19:06:23 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:06:23 [32minfo[39m: 	/assigned_stud_save_button
+2023-02-19 19:06:23 [32minfo[39m: 	update reverted_stud_csv_admin_t set is_active=0, assigned_to=2,assigned_by=1
+    where id in (4,5);
+2023-02-19 19:06:43 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:06:43 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:06:43 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=2
+2023-02-19 19:08:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:08:35 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:08:35 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1
+2023-02-19 19:15:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:15:46 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:15:52 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:15:52 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:15:52 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:15:52 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:15:52 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:15:52 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:15:52 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:15:52 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:15:52 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:15:52 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:15:52 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:15:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:15:53 [32minfo[39m: 	/view_task
+2023-02-19 19:15:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:15:53 [32minfo[39m: 	/view_task
+2023-02-19 19:15:53 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:15:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:15:53 [32minfo[39m: 	/roles
+2023-02-19 19:15:53 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:15:59 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:15:59 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:16:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:16:00 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:16:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:16:00 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:16:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:16:00 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:16:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:16:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:16:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:16:00 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:16:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:16:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:16:00 [32minfo[39m: 	/view_task
+2023-02-19 19:16:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:16:00 [32minfo[39m: 	/view_task
+2023-02-19 19:16:00 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:16:00 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:16:00 [32minfo[39m: 	/roles
+2023-02-19 19:16:00 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:16:28 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:16:28 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:17:20 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:20 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:17:20 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:20 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:17:20 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:17:20 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:17:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:17:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:17:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:17:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:17:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:17:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:17:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:17:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:22 [32minfo[39m: 	/view_task
+2023-02-19 19:17:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:22 [32minfo[39m: 	/view_task
+2023-02-19 19:17:22 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:17:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:22 [32minfo[39m: 	/roles
+2023-02-19 19:17:22 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:17:32 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:32 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:17:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:17:33 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:17:33 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:17:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:17:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:17:34 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:17:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:17:34 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:17:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:34 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:17:34 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:17:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:34 [32minfo[39m: 	/view_task
+2023-02-19 19:17:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:34 [32minfo[39m: 	/view_task
+2023-02-19 19:17:34 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:17:34 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:34 [32minfo[39m: 	/roles
+2023-02-19 19:17:34 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:17:51 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:51 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:17:51 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:17:51 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:17:51 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:17:51 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:18:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:22 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:18:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:22 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:18:22 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:18:22 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:18:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:18:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:18:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:18:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:18:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:18:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:22 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:18:22 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:18:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:22 [32minfo[39m: 	/view_task
+2023-02-19 19:18:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:22 [32minfo[39m: 	/view_task
+2023-02-19 19:18:22 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:18:22 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:22 [32minfo[39m: 	/roles
+2023-02-19 19:18:22 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:18:31 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:31 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:18:31 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:31 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:18:31 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:18:31 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:18:43 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:43 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:18:43 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:43 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:18:43 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:18:43 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:18:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:46 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:18:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:46 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:18:46 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:18:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:46 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:18:46 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:18:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:46 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:18:46 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:18:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:46 [32minfo[39m: 	/view_task
+2023-02-19 19:18:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:46 [32minfo[39m: 	/view_task
+2023-02-19 19:18:46 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:18:46 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:18:46 [32minfo[39m: 	/roles
+2023-02-19 19:18:46 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:19:20 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:20 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:19:20 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:20 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:19:20 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:19:20 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:19:38 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:38 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:19:38 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:38 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:19:38 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:19:38 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:38 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:19:38 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:19:38 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:38 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:19:38 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:19:38 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:38 [32minfo[39m: 	/view_task
+2023-02-19 19:19:38 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:38 [32minfo[39m: 	/view_task
+2023-02-19 19:19:38 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:19:38 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:38 [32minfo[39m: 	/roles
+2023-02-19 19:19:38 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:19:52 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:52 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:19:52 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:52 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:19:52 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:19:52 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:19:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:53 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:19:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:53 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:19:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:19:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:53 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:19:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:19:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:53 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:19:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:19:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:53 [32minfo[39m: 	/view_task
+2023-02-19 19:19:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:53 [32minfo[39m: 	/view_task
+2023-02-19 19:19:53 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:19:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:19:53 [32minfo[39m: 	/roles
+2023-02-19 19:19:53 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 19:20:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:20:33 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:20:33 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:20:33 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:20:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:53 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:20:53 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:53 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 19:20:53 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 19:20:53 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-19 19:20:55 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:55 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:20:55 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:55 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:20:55 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 19:20:56 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:56 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:20:56 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 19:20:56 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:56 [32minfo[39m: 	/names_basedon_role
+2023-02-19 19:20:56 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 19:20:56 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:56 [32minfo[39m: 	/view_task
+2023-02-19 19:20:56 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:56 [32minfo[39m: 	/view_task
+2023-02-19 19:20:56 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 19:20:56 [32minfo[39m: 	Requested URL : 
+2023-02-19 19:20:56 [32minfo[39m: 	/roles
+2023-02-19 19:20:56 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 22:16:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:16:35 [32minfo[39m: 	/names_basedon_role
+2023-02-19 22:16:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:16:35 [32minfo[39m: 	/names_basedon_role
+2023-02-19 22:16:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:16:35 [32minfo[39m: 	/names_basedon_role
+2023-02-19 22:16:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:16:35 [32minfo[39m: 	/view_task
+2023-02-19 22:16:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:16:35 [32minfo[39m: 	/names_basedon_role
+2023-02-19 22:16:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:16:35 [32minfo[39m: 	/names_basedon_role
+2023-02-19 22:16:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:16:35 [32minfo[39m: 	/names_basedon_role
+2023-02-19 22:16:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:16:35 [32minfo[39m: 	/view_task
+2023-02-19 22:16:35 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=2  and   is_active=1 and year(c_ts)='2023';
+2023-02-19 22:16:35 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-19 22:16:35 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-19 22:16:35 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-19 22:16:35 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:16:35 [32minfo[39m: 	/roles
+2023-02-19 22:16:35 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-19 22:42:37 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:42:37 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 22:42:37 [32minfo[39m: 	Requested URL : 
+2023-02-19 22:42:37 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-19 22:42:37 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=undefined
+2023-02-19 22:42:37 [31merror[39m: 	Error While Getting reverted_stud_list_csv  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
