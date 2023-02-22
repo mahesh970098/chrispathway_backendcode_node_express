@@ -1,0 +1,44 @@
+2023-02-22 00:01:16 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:01:16 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-22 00:01:16 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=1
+2023-02-22 00:02:33 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:02:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-22 00:02:33 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=1
+2023-02-22 00:03:29 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:03:29 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-22 00:03:29 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=1
+2023-02-22 00:06:48 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:06:48 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-22 00:06:48 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:06:48 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-22 00:06:48 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=2
+2023-02-22 00:08:40 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:08:40 [32minfo[39m: 	/advisor_assign_stud_dropdown
+2023-02-22 00:08:40 [32minfo[39m: 	SELECT id as student_id,Studen_Name,email_id,country_interested FROM reverted_stud_csv_admin_t where student_interest='Yes' and assign_indicator=1;
+2023-02-22 00:09:29 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:09:29 [32minfo[39m: 	/advisor_assign_stud_dropdown
+2023-02-22 00:09:29 [32minfo[39m: 	SELECT id as student_id,Studen_Name,email_id,country_interested FROM reverted_stud_csv_admin_t where student_interest='Yes' and assign_indicator=1;
+2023-02-22 00:09:53 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:09:53 [32minfo[39m: 	/advisor_assign_advisorname_dropdown
+2023-02-22 00:09:53 [32minfo[39m: 	SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=2; 
+2023-02-22 00:10:37 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:10:37 [32minfo[39m: 	/advisor_assign_advisorname_dropdown
+2023-02-22 00:10:37 [32minfo[39m: 	SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=2; 
+2023-02-22 00:10:41 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:10:41 [32minfo[39m: 	/advisor_assign_advisorname_dropdown
+2023-02-22 00:10:41 [32minfo[39m: 	SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=34; 
+2023-02-22 00:11:24 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:11:24 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-22 00:11:24 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=1
+2023-02-22 00:12:22 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:12:22 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-22 00:12:22 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1
+2023-02-22 00:13:35 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:13:35 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-22 00:13:35 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1
+2023-02-22 00:13:41 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:13:41 [32minfo[39m: 	/advisor_todo_row_save
+2023-02-22 00:13:41 [32minfo[39m: 	update reverted_stud_csv_admin_t set checkbox_save='2023-02-22',u_ts='2023-02-22',student_interest='No',is_active=1,assigned_to=NULL,assigned_by=NULL where id in (156, 157)
+2023-02-22 00:13:45 [32minfo[39m: 	Requested URL : 
+2023-02-22 00:13:45 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-22 00:13:45 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1

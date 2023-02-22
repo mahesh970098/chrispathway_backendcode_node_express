@@ -33,4 +33,9 @@ router.post('/manage_roles_delete', adminRoutes.manage_roles_delete)
 
 // advisor
 router.post('/advisor_todo_row_save', adminRoutes.advisor_todo_row_save)
+router.post('/advisor_create_student', adminRoutes.advisor_create_student)
+
+router.get('/advisor_assign_stud_dropdown', adminRoutes.advisor_assign_stud_dropdown)
+router.post('/advisor_assign_advisorname_dropdown', adminRoutes.advisor_assign_advisorname_dropdown)
+router.post('/advisor_assign_form_submit', adminRoutes.advisor_assign_form_submit)
 module.exports = router;

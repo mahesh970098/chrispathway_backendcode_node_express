@@ -1,0 +1,1157 @@
+2023-02-21 22:22:52 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:24:19 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:24:19 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:24:19 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:24:19 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:24:19 [32minfo[39m: 	/view_task
+2023-02-21 22:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:24:19 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:24:19 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:24:19 [32minfo[39m: 	/roles
+2023-02-21 22:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:24:19 [32minfo[39m: 	/view_task
+2023-02-21 22:24:19 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-21 22:24:19 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-21 22:24:19 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-21 22:24:19 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 22:24:19 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=undefined  and   is_active=1 and year(c_ts)='2023';
+2023-02-21 22:24:19 [31merror[39m: 	Error While Getting view_task  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-21 22:28:29 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:29 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:29 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:29 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:29 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:29 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:29 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:29 [32minfo[39m: 	/view_task
+2023-02-21 22:28:29 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:29 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:29 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:29 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:29 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:29 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:29 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:29 [32minfo[39m: 	/view_task
+2023-02-21 22:28:29 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 22:28:29 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-21 22:28:29 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-21 22:28:29 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=undefined  and   is_active=1 and year(c_ts)='2023';
+2023-02-21 22:28:29 [31merror[39m: 	Error While Getting view_task  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-21 22:28:29 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:29 [32minfo[39m: 	/roles
+2023-02-21 22:28:29 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-21 22:28:40 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:40 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:40 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:40 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:40 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:40 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:40 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:40 [32minfo[39m: 	/view_task
+2023-02-21 22:28:40 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:40 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:40 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:40 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:40 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:40 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:28:40 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:40 [32minfo[39m: 	/view_task
+2023-02-21 22:28:40 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 22:28:40 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-21 22:28:40 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=undefined  and   is_active=1 and year(c_ts)='2023';
+2023-02-21 22:28:40 [31merror[39m: 	Error While Getting view_task  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-21 22:28:40 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-21 22:28:40 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:28:40 [32minfo[39m: 	/roles
+2023-02-21 22:28:40 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-21 22:29:30 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:30 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:30 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:30 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:30 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:30 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:30 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:30 [32minfo[39m: 	/view_task
+2023-02-21 22:29:30 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:30 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:30 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:30 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:30 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:30 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:30 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 22:29:30 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-21 22:29:30 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-21 22:29:30 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:30 [32minfo[39m: 	/view_task
+2023-02-21 22:29:30 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=undefined  and   is_active=1 and year(c_ts)='2023';
+2023-02-21 22:29:30 [31merror[39m: 	Error While Getting view_task  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-21 22:29:30 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:30 [32minfo[39m: 	/roles
+2023-02-21 22:29:30 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-21 22:29:37 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:37 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:37 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:37 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:37 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 22:29:37 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:37 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:37 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:37 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:29:37 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-21 22:29:37 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-21 22:29:37 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:37 [32minfo[39m: 	/view_task
+2023-02-21 22:29:37 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:37 [32minfo[39m: 	/view_task
+2023-02-21 22:29:37 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:29:37 [32minfo[39m: 	/roles
+2023-02-21 22:29:37 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=undefined  and   is_active=1 and year(c_ts)='2023';
+2023-02-21 22:29:37 [31merror[39m: 	Error While Getting view_task  ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+2023-02-21 22:29:37 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-21 22:35:59 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:35:59 [32minfo[39m: 	/notification_display
+2023-02-21 22:35:59 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=12;
+2023-02-21 22:36:07 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:36:07 [32minfo[39m: 	/notification_display
+2023-02-21 22:36:07 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=2;
+2023-02-21 22:36:53 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:36:53 [32minfo[39m: 	/send_message
+2023-02-21 22:36:53 [32minfo[39m: 	insert into send_message_dtl_t (role_id, name, message, created_by) values(2, '2', 'admin sending message to advisor (id is equal to 2 )', 1)
+2023-02-21 22:36:53 [32minfo[39m: 	select * from send_message_dtl_t where id=43 
+2023-02-21 22:37:01 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:37:01 [32minfo[39m: 	/notification_display
+2023-02-21 22:37:01 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=2;
+2023-02-21 22:39:04 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:39:04 [32minfo[39m: 	/manage_roles_get
+2023-02-21 22:39:04 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-02-21 22:42:37 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:42:37 [32minfo[39m: 	/manage_roles_delete
+2023-02-21 22:42:37 [32minfo[39m: 	update users_dtl_t set is_active=0 where id=32;
+2023-02-21 22:42:49 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:42:49 [32minfo[39m: 	/manage_roles_get
+2023-02-21 22:42:49 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-02-21 22:45:43 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:45:51 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:45:51 [32minfo[39m: 	/manage_roles_delete
+2023-02-21 22:45:51 [32minfo[39m: 	update users_dtl_t set is_active=0 , u_ts= '2023-02-21' , u_by=1 where id=32;
+2023-02-21 22:48:18 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:48:18 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:48:18 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:48:18 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:48:18 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:48:18 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:48:18 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:48:18 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:48:18 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 22:48:18 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1
+2023-02-21 22:49:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:49:19 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:49:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:49:19 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:49:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:49:19 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:49:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:49:19 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:49:19 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 22:49:19 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1
+2023-02-21 22:51:12 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:51:12 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:51:12 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:51:12 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:51:12 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:51:12 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:51:12 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:51:12 [32minfo[39m: 	/names_basedon_role
+2023-02-21 22:51:12 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1
+2023-02-21 22:51:12 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 22:54:31 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:54:31 [32minfo[39m: 	/login
+2023-02-21 22:54:31 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:54:31 [32minfo[39m: 	/login
+2023-02-21 22:54:31 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com'
+2023-02-21 22:54:31 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sandeepcharispathway@gmail.com' and pwd='9390038284' 
+2023-02-21 22:54:35 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:54:35 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:54:35 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:54:35 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:54:35 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=2
+2023-02-21 22:54:56 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:54:56 [32minfo[39m: 	/admincreateUser
+2023-02-21 22:54:56 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:54:56 [32minfo[39m: 	/admincreateUser
+2023-02-21 22:54:56 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='maheshalakunta@dataevolve.in' and role=4 and phone_no='9704065709090';
+2023-02-21 22:54:56 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on,offerletter_upload) 
+                values("maheshalakunta@dataevolve.in","asdasdasdas","4","maheshtest","undefined","9704065709090","undefined","");
+2023-02-21 22:54:56 [32minfo[39m: 	select * from users_dtl_t where id=34;
+2023-02-21 22:56:38 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:56:40 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:56:46 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:56:50 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:56:53 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:56:55 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:56:58 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:56:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:57:03 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:57:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:57:19 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 22:58:43 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:58:43 [32minfo[39m: 	/notification_display
+2023-02-21 22:58:43 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-02-21 22:59:42 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:59:42 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:59:42 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:59:42 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:59:42 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=2
+2023-02-21 22:59:50 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:59:50 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:59:50 [32minfo[39m: 	Requested URL : 
+2023-02-21 22:59:50 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 22:59:50 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=2
+2023-02-21 23:00:09 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:00:09 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 23:00:09 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:00:09 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 23:00:09 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=2
+2023-02-21 23:05:34 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:05:34 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 23:05:34 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:05:34 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 23:05:34 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=0 and assigned_to=2
+2023-02-21 23:08:27 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:08:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:08:33 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:36:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:08:47 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:36:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:08:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:08:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:09:17 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:09:22 [31merror[39m: 	uncaughtException: c is not defined
+ReferenceError: c is not defined
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\model\adminModel.js:328:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-02-21 23:09:24 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:09:28 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:09:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:09:36 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:348
+exports. = (logged_user_id, selected_user_id, selected_checkbox_id, callback) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:09:40 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:09:43 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:09:47 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:17 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:22 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:23 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:26 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:46 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:48 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:52 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:54 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:11:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:12:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:12:05 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:12:11 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:12:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:12:17 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:12:28 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:348
+exports.advisor_todo_row_save = callback) => {
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:12:31 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:348
+exports.advisor_todo_row_save = (username, phoneNumber, email, password, created_user_id, ,callback) => {
+                                                                                          ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:12:32 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:12:38 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:348
+exports. = (username, phoneNumber, email, password, created_user_id,callback) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:12:52 [31merror[39m: 	uncaughtException: Malformed arrow function parameter list
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:348
+    adminModel.reverted_stud_save_button(lasync (err, Data18, flag) => {
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:12:54 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:348
+exports. = (username, phoneNumber, email, password, created_user_id,callback) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:13:02 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:13:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:13:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:13:47 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:13:48 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:13:55 [31merror[39m: 	uncaughtException: Malformed arrow function parameter list
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:279
+    adminModel.advisor_create_student(advisor_create_studentasync (err, Data18, flag) => {
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:13:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:07 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:12 [31merror[39m: 	uncaughtException: Malformed arrow function parameter list
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:279
+    adminModel.advisor_create_student(advisor_create_studentasync (err, Data18, flag) => {
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:14:16 [31merror[39m: 	uncaughtException: Malformed arrow function parameter list
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:279
+    adminModel.advisor_create_student(advisor_create_studentasync (err, Data18, flag) => {
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:14:24 [31merror[39m: 	uncaughtException: Malformed arrow function parameter list
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:279
+    adminModel.advisor_create_student(vasync (err, Data18, flag) => {
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:14:27 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:35 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:37 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:41 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:45 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:49 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:51 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:14:55 [31merror[39m: 	uncaughtException: Unexpected token '.'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:279
+    console.log("hi")
+           ^
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:15:04 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:15:09 [31merror[39m: 	uncaughtException: Identifier 'password' has already been declared
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:280
+    let password = req.body.password;
+        ^
+
+SyntaxError: Identifier 'password' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:15:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:15:18 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:15:28 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:15:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:15:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:17:50 [31merror[39m: 	uncaughtException: Unexpected token ';'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:283
+    ;
+    ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:17:51 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:17:54 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:17:54 [32minfo[39m: 	/advisor_create_student
+2023-02-21 23:17:54 [32minfo[39m: 	insert into users_dtl_t(user_name,phone_no,email,pwd,c_by,role) values?
+2023-02-21 23:17:54 [31merror[39m: 	Error While Getting manage_roles_delete  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+2023-02-21 23:18:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:18:16 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:18:16 [32minfo[39m: 	/advisor_create_student
+2023-02-21 23:18:16 [32minfo[39m: 	insert into users_dtl_t(user_name,phone_no,email,pwd,c_by,role) values'Jet Sreeram', '+917814066558', 'jet@highspeed', 'test@123', 2, 4
+2023-02-21 23:18:16 [31merror[39m: 	Error While Getting manage_roles_delete  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Jet Sreeram', '+917814066558', 'jet@highspeed', 'test@123', 2, 4' at line 1
+2023-02-21 23:19:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:19:18 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:19:20 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:19:20 [32minfo[39m: 	/advisor_create_student
+2023-02-21 23:19:20 [32minfo[39m: 	insert into users_dtl_t(user_name,phone_no,email,pwd,c_by,role) values('Jet Sreeram', '+917814066558', 'jet@highspeed', 'test@123', 2, 4)
+2023-02-21 23:22:57 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:22:57 [32minfo[39m: 	/names_basedon_role
+2023-02-21 23:22:57 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:22:57 [32minfo[39m: 	/names_basedon_role
+2023-02-21 23:22:57 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 23:23:01 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:23:01 [32minfo[39m: 	/names_basedon_role
+2023-02-21 23:23:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-21 23:24:19 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:24:19 [32minfo[39m: 	/send_message
+2023-02-21 23:24:19 [32minfo[39m: 	insert into send_message_dtl_t (role_id, name, message, created_by) values(1, '1', 'advisor sending emergency msg to admin', 2)
+2023-02-21 23:24:19 [32minfo[39m: 	select * from send_message_dtl_t where id=44 
+2023-02-21 23:24:32 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:24:32 [32minfo[39m: 	/notification_display
+2023-02-21 23:24:32 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-02-21 23:25:41 [31merror[39m: 	SyntaxError: Unexpected token } in JSON at position 149
+    at JSON.parse (<anonymous>)
+    at parse (E:\ALL-Data\seedfund\AACS\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\ALL-Data\seedfund\AACS\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (E:\ALL-Data\seedfund\AACS\node_modules\raw-body\index.js:231:16)
+    at done (E:\ALL-Data\seedfund\AACS\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\ALL-Data\seedfund\AACS\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-02-21 23:25:42 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:25:42 [32minfo[39m: 	/send_message
+2023-02-21 23:25:42 [32minfo[39m: 	insert into send_message_dtl_t (role_id, name, message, created_by) values(1, '1', 'advisor sending emergency msg to admin', 2)
+2023-02-21 23:25:42 [32minfo[39m: 	select * from send_message_dtl_t where id=45 
+2023-02-21 23:25:52 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:25:52 [32minfo[39m: 	/notification_display
+2023-02-21 23:25:52 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-02-21 23:26:46 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:26:51 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:26:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:27:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:27:17 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:27:18 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:27:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:27:35 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:38:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:28:31 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:38:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:28:37 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:38:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:28:41 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:28:45 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:28:48 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:297
+    adminModel.advisor_assign_stud_dropdown(, , email, password, created_user_id, async (err, Data18, flag) => {
+                                            ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:28:52 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:297
+    adminModel.advisor_assign_stud_dropdown(,async (err, Data18, flag) => {
+                                            ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:28:57 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:297
+    adminModel.advisor_assign_stud_dropdown(,async (err, Data18, flag) => {
+                                            ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:29:10 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:297
+    adminModel.advisor_assign_stud_dropdown(,async (err, Data18, flag) => {
+                                            ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:29:11 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:296
+    adminModel.advisor_assign_stud_dropdown(,async (err, Data18, flag) => {
+                                            ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:29:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:29:37 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:29:50 [31merror[39m: 	uncaughtException: Unexpected token 'else'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:301
+    else {
+    ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:29:53 [31merror[39m: 	uncaughtException: Unexpected token 'else'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:301
+    else {
+    ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:30:00 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:30:04 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:30:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:33:35 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:33:45 [31merror[39m: 	uncaughtException: Unexpected token ')'
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:299
+        })
+         ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:33:47 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:33:54 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:33:59 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:286
+    , callback) => {
+    ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:34:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:34:05 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:34:12 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:34:36 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:34:55 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:34:55 [32minfo[39m: 	/advisor_assign_stud_dropdown
+2023-02-21 23:34:55 [32minfo[39m: 	SELECT id as student_id,Studen_Name,email_id,country_interested FROM reverted_stud_csv_admin_t where student_interest='Yes' and assign_indicator=1;
+2023-02-21 23:35:07 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:35:17 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:35:20 [31merror[39m: 	uncaughtException: Unexpected token '}'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:303
+            res.send({ "result": "success", "Data":  });
+                                                     ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:35:23 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:35:23 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:35:23 [32minfo[39m: 	/advisor_assign_stud_dropdown
+2023-02-21 23:35:23 [32minfo[39m: 	SELECT id as student_id,Studen_Name,email_id,country_interested FROM reverted_stud_csv_admin_t where student_interest='Yes' and assign_indicator=1;
+2023-02-21 23:36:01 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:36:01 [32minfo[39m: 	/names_basedon_role
+2023-02-21 23:36:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-21 23:36:56 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:37:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:37:06 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:37:13 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:37:19 [31merror[39m: 	uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:40:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:37:29 [31merror[39m: 	uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:40:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:37:40 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:37:43 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:37:53 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:38:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:38:03 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:38:11 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:38:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:38:17 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:40:22 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:40:23 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:40:30 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:40:35 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:41:07 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:41:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:41:22 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:41:38 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:41:38 [32minfo[39m: 	/advisor_assign_advisorname_dropdown
+2023-02-21 23:41:55 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:41:59 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:41:59 [32minfo[39m: 	/advisor_assign_advisorname_dropdown
+2023-02-21 23:41:59 [32minfo[39m: 	SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=2; 
+2023-02-21 23:42:55 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:42:55 [32minfo[39m: 	/advisor_assign_advisorname_dropdown
+2023-02-21 23:42:55 [32minfo[39m: 	SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=2; 
+2023-02-21 23:43:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:43:24 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:43:25 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:43:29 [31merror[39m: 	uncaughtException: Invalid or unexpected token
+E:\ALL-Data\seedfund\AACS\routes\routes.js:40
+router.post('/advisor_assign_for, adminRoutes.advisor_assign_advisorname_dropdown)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:43:31 [31merror[39m: 	uncaughtException: Invalid or unexpected token
+E:\ALL-Data\seedfund\AACS\routes\routes.js:40
+router.post('/advisor_assign_for, adminRoutes.advisor_assign_advisorname_dropdown)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:43:34 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:43:40 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:40:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:43:50 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:40:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:43:53 [31merror[39m: 	uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:40:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\app.js:48:14)
+2023-02-21 23:43:55 [31merror[39m: 	uncaughtException: Unexpected token '('
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:328
+    adminModel.(logged_user_id, async (err, Data18, flag) => {
+               ^
+
+SyntaxError: Unexpected token '('
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:43:58 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:325
+exports. = (async (req, res) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:44:04 [31merror[39m: 	uncaughtException: Unexpected token '('
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:328
+    adminModel.(logged_user_id, async (err, Data18, flag) => {
+               ^
+
+SyntaxError: Unexpected token '('
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:44:08 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:44:23 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:44:24 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:44:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:44:35 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:44:39 [31merror[39m: 	uncaughtException: Unexpected token '.'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:329
+    console.log("hi")
+           ^
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:44:41 [31merror[39m: 	uncaughtException: Unexpected token '.'
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:329
+    console.log("hi")
+           ^
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:44:44 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:44:49 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:44:51 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:44:53 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:44:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:03 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:04 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:09 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:12 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:16 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:26 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:29 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:37 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:43 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:45:53 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:46:01 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:46:07 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:46:15 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:46:42 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:46:50 [31merror[39m: 	uncaughtException: Unexpected token '='
+E:\ALL-Data\seedfund\AACS\model\adminModel.js:317
+exports. = (logged_user_id, callback) => {
+         ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:46:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:47:16 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:47:26 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:47:32 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:50:11 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:50:40 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:50:47 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:51:47 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:51:57 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:51:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:52:04 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:52:09 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:52:28 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:52:31 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:52:34 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:52:35 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:54:33 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:338
+            res.send({ "result": "success", "Me","Data": Data18 });
+                                                ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:54:35 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:338
+            res.send({ "result": "success", "Me","Data": Data18 });
+                                                ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:54:37 [31merror[39m: 	uncaughtException: Unexpected token ','
+E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:338
+            res.send({ "result": "success", "Message","Data": Data18 });
+                                                     ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (E:\ALL-Data\seedfund\AACS\routes\routes.js:4:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2023-02-21 23:54:42 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:54:49 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:54:55 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:54:58 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:54:58 [32minfo[39m: 	/advisor_assign_advisorname_dropdown
+2023-02-21 23:54:58 [32minfo[39m: 	SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=2; 
+2023-02-21 23:55:12 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:55:12 [32minfo[39m: 	/advisor_assign_form_submit
+2023-02-21 23:55:12 [32minfo[39m: 	update reverted_stud_csv_admin_t set u_by=2 assined_to = 34, assigned_by=2 where id in (156, 157);
+2023-02-21 23:55:12 [31merror[39m: 	Error While Getting manage_roles_delete  ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'assined_to = 34, assigned_by=2 where id in (156, 157)' at line 1
+2023-02-21 23:55:33 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:56:02 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:56:02 [32minfo[39m: 	/advisor_assign_form_submit
+2023-02-21 23:56:02 [32minfo[39m: 	update reverted_stud_csv_admin_t set u_by=2, assined_to = 34, assigned_by=2 where id in (156, 157);
+2023-02-21 23:56:02 [31merror[39m: 	Error While Getting manage_roles_delete  ER_BAD_FIELD_ERROR: Unknown column 'assined_to' in 'field list'
+2023-02-21 23:56:30 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:56:31 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:56:31 [32minfo[39m: 	/advisor_assign_form_submit
+2023-02-21 23:56:32 [32minfo[39m: 	update reverted_stud_csv_admin_t set u_by=2, assigned_to = 34, assigned_by=2 where id in (156, 157);
+2023-02-21 23:56:54 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:57:10 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:57:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:57:19 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:57:21 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:57:23 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:57:28 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-21 23:57:32 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:57:32 [32minfo[39m: 	/advisor_assign_form_submit
+2023-02-21 23:57:32 [32minfo[39m: 	update reverted_stud_csv_admin_t set u_by=2, assigned_to = 34, assigned_by=2,student_interest=null,assign_indicator=0,u_ts='2023-02-21' where id in (156, 157);
+2023-02-21 23:58:17 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:58:17 [32minfo[39m: 	/advisor_assign_advisorname_dropdown
+2023-02-21 23:58:17 [32minfo[39m: 	SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=NULL; 
+2023-02-21 23:58:44 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:58:44 [32minfo[39m: 	/advisor_assign_advisorname_dropdown
+2023-02-21 23:58:44 [32minfo[39m: 	SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=2; 
+2023-02-21 23:59:55 [32minfo[39m: 	Requested URL : 
+2023-02-21 23:59:55 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-21 23:59:55 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1

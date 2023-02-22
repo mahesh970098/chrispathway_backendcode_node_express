@@ -46,8 +46,8 @@ exports.admincreateUser = (name, phone_no, role_id, designation, joined_on, emai
             else {
                 console.log(email)
 
-                QRY_TO_EXEC = `insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on,offerletter_upload) 
-                values("${email}","${password}","${role_id}","${name}","${designation}","${phone_no}","${joined_on}","${offer_letter_location}");`
+                QRY_TO_EXEC = `insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on,offerletter_upload,c_by) 
+                values("${email}","${password}","${role_id}","${name}","${designation}","${phone_no}","${joined_on}","${offer_letter_location}",1);`
                 dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results1) {
                     console.log(results1.insertId, "^^^^")
                     QRY_TO_EXEC = `select * from users_dtl_t where id=?;`
@@ -223,8 +223,9 @@ join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;`
 
 exports.manage_roles_delete = (deleted_user_id, callback) => {
     let cntxtDtls = "Get manage_roles_delete api";
-    QRY_TO_EXEC = `update users_dtl_t set is_active=0 where id=?;`
-    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [deleted_user_id], function (err, results) {
+    let current_timestamp = moment().format('YYYY-MM-DD')
+    QRY_TO_EXEC = `update users_dtl_t set is_active=0 , u_ts= ? , u_by=1 where id=?;`
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [current_timestamp, deleted_user_id], function (err, results) {
         if (err) {
             callback(err, 0)
             return
@@ -281,6 +282,53 @@ exports.advisor_todo_row_save = (student_interest, to_do_id, assign_checkbox, ca
 
 }
 
+exports.advisor_assign_stud_dropdown = (callback) => {
+    let cntxtDtls = "Get advisor_todo_row_save api";
+    let current_timestamp = moment().format('YYYY-MM-DD')
+   
+    QRY_TO_EXEC = `SELECT id as student_id,Studen_Name,email_id,country_interested FROM reverted_stud_csv_admin_t where student_interest='Yes' and assign_indicator=1;`
+        dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
+            if (err) {
+                callback(err, 0)
+                return
+            }
+            else {
+                callback(err, results)
+                return
+            }
+        })
+}
+
+exports.advisor_assign_advisorname_dropdown = (logged_user_id,callback) => {
+    let cntxtDtls = "Get advisor_assign_advisorname_dropdown api";
+    let current_timestamp = moment().format('YYYY-MM-DD')
+    QRY_TO_EXEC = `SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=?; `
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [logged_user_id], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
+        }
+    })
+}
+exports.advisor_assign_form_submit = (logged_user_id, selected_student_id, selected_advisor_id, conflicts_faced, callback) => {
+    let cntxtDtls = "Get advisor_assign_advisorname_dropdown api";
+    let current_timestamp = moment().format('YYYY-MM-DD')
+    QRY_TO_EXEC = `update reverted_stud_csv_admin_t set u_by=?, assigned_to = ?, assigned_by=?,student_interest=null,assign_indicator=0,u_ts=? where id in (?);`
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [logged_user_id, selected_advisor_id,logged_user_id,current_timestamp,selected_student_id], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
+        }
+    })
+}
 
 exports.admin_csv_upload = (multiple_record_file, callback) => {
     let cntxtDtls = "Get admin_csv_upload api";
@@ -333,6 +381,22 @@ exports.reverted_stud_save_button = (logged_user_id, selected_user_id, selected_
     QRY_TO_EXEC = `update reverted_stud_csv_admin_t set is_active=0, assigned_to=${selected_user_id},assigned_by=${logged_user_id}
     where id in (${selected_checkbox_id});`
     dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
+        }
+    })
+}
+
+exports.advisor_create_student = (username, phoneNumber, email, password, created_user_id,callback) => {
+    let cntxtDtls = "Get advisor_todo_row_save api";
+    QRY_TO_EXEC = `insert into users_dtl_t(user_name,phone_no,email,pwd,c_by,role) values(?)`
+    let values=[username,phoneNumber,email,password,created_user_id,4]
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [values], function (err, results) {
         if (err) {
             callback(err, 0)
             return

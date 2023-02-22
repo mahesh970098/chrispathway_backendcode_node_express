@@ -271,6 +271,75 @@ exports.advisor_todo_row_save= (async (req, res) => {
     });
 })
 
+exports.advisor_create_student = (async (req, res) => {
+    let username = req.body.username;
+    let phoneNumber = req.body.phoneNumber;
+    let email = req.body.email;
+    let password = req.body.password;
+    let created_user_id = req.body.logged_user_id;
+    console.log("hi")
+    adminModel.advisor_create_student(username, phoneNumber, email, password, created_user_id, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting manage_roles_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "Message": "Created Successfully" });
+            return;
+        }
+    });
+})
+
+exports.advisor_assign_stud_dropdown = (async (req, res) => {
+    console.log("hi")
+    adminModel.advisor_assign_stud_dropdown(async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting manage_roles_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "Data": Data18 });
+            return;
+        }
+    });
+})
+
+exports.advisor_assign_advisorname_dropdown = (async (req, res) => {
+    let logged_user_id=req.body.logged_user_id
+    console.log("hi")
+    adminModel.advisor_assign_advisorname_dropdown(logged_user_id,async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting manage_roles_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "Data": Data18 });
+            return;
+        }
+    });
+})
+
+exports.advisor_assign_form_submit = (async (req, res) => {
+    let logged_user_id = req.body.logged_user_id
+    let selected_student_id=req.body.selected_student_id;
+    let selected_advisor_id=req.body.assigned_person_id;
+    let conflicts_faced=req.body.conflicts_faced
+    console.log("hi")
+    adminModel.advisor_assign_form_submit(logged_user_id, selected_student_id, selected_advisor_id,conflicts_faced,async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting manage_roles_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "Message":"Assigned Successfully"});
+            return;
+        }
+    });
+})
 
 exports.admin_csv_upload = (async (req, res) => {
     let current_timestamp = moment().format('YYYYMMDDHHmmss');
