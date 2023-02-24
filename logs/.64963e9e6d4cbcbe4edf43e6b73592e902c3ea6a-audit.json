@@ -6,16 +6,6 @@
     "auditLog": "logs\\.64963e9e6d4cbcbe4edf43e6b73592e902c3ea6a-audit.json",
     "files": [
         {
-            "date": 1676725003293,
-            "name": "logs\\ReqRes_2023-02-18.log",
-            "hash": "20dd66a0464a0bd308d35f09201ac214935620c85e503d994e3fd340b8f41192"
-        },
-        {
-            "date": 1676747901758,
-            "name": "logs\\ReqRes_2023-02-19.log",
-            "hash": "a744cb0aa8afc1e241fd0bf7307e088b3fea327bd9a893db522432f1e4ff5054"
-        },
-        {
             "date": 1676871207402,
             "name": "logs\\ReqRes_2023-02-20.log",
             "hash": "fa4cdbb557aad08d2aba97c20bb28f6735caf685ca69cfe2acd7342b644f9a20"
@@ -29,6 +19,16 @@
             "date": 1677004276231,
             "name": "logs\\ReqRes_2023-02-22.log",
             "hash": "f978f72990a8ca0730790a1f95dc159181b24dec99c9046f82f8e1d866ca011c"
+        },
+        {
+            "date": 1677136812205,
+            "name": "logs\\ReqRes_2023-02-23.log",
+            "hash": "630a02fc09ed5b4f9f2ae4a1a036d1668eb1d81aeabbcf71cf5653e2edfa87f1"
+        },
+        {
+            "date": 1677223537999,
+            "name": "logs\\ReqRes_2023-02-24.log",
+            "hash": "ed32c8331a7538074a71e33e666bd91c2611ca40c9727743632793fd4f55ed67"
         }
     ],
     "hashType": "sha256"
