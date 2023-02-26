@@ -111,12 +111,12 @@ exports.creating_task = (task_name, task_desc, created_role_id, c_by, callback) 
     })
 }
 
-exports.view_task = (logged_user_id, year, callback) => {
+exports.view_task = (logged_user_id, year, status, callback) => {
     let cntxtDtls = "Get view_task api";
 
 
     if (year != 0) {
-        QRY_TO_EXEC = `SELECT * FROM tasks_dlt_t where c_by=${logged_user_id}  and   is_active=1 and year(c_ts)='${year}';`
+        QRY_TO_EXEC = `SELECT * FROM tasks_dlt_t where c_by=${logged_user_id}  and   is_active=1 and year(c_ts)='${year}' and status='${status}';`
 
     }
     else {
@@ -138,7 +138,13 @@ exports.view_task = (logged_user_id, year, callback) => {
 
 exports.view_task_status_update = (logged_user_id, status, task_id, callback) => {
     let cntxtDtls = "Get view_task_status_update api";
-    QRY_TO_EXEC = `update tasks_dlt_t set status=? ,u_by =? where id=?;`
+    if (status == "Delete") {
+        QRY_TO_EXEC = `update tasks_dlt_t set status=? ,u_by =? , is_active=0 where id=?;`
+    }
+    else {
+        QRY_TO_EXEC = `update tasks_dlt_t set status=? ,u_by =? where id=?;`
+    }
+
     dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [status, logged_user_id, task_id], function (err, results) {
         if (err) {
             callback(err, 0)
@@ -285,21 +291,21 @@ exports.advisor_todo_row_save = (student_interest, to_do_id, assign_checkbox, ca
 exports.advisor_assign_stud_dropdown = (callback) => {
     let cntxtDtls = "Get advisor_todo_row_save api";
     let current_timestamp = moment().format('YYYY-MM-DD')
-   
+
     QRY_TO_EXEC = `SELECT id as student_id,Studen_Name,email_id,country_interested FROM reverted_stud_csv_admin_t where student_interest='Yes' and assign_indicator=1;`
-        dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
-            if (err) {
-                callback(err, 0)
-                return
-            }
-            else {
-                callback(err, results)
-                return
-            }
-        })
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
+        }
+    })
 }
 
-exports.advisor_assign_advisorname_dropdown = (logged_user_id,callback) => {
+exports.advisor_assign_advisorname_dropdown = (logged_user_id, callback) => {
     let cntxtDtls = "Get advisor_assign_advisorname_dropdown api";
     let current_timestamp = moment().format('YYYY-MM-DD')
     QRY_TO_EXEC = `SELECT id,email,user_name FROM charispathway.users_dtl_t where role=2 and id !=?; `
@@ -318,7 +324,7 @@ exports.advisor_assign_form_submit = (logged_user_id, selected_student_id, selec
     let cntxtDtls = "Get advisor_assign_advisorname_dropdown api";
     let current_timestamp = moment().format('YYYY-MM-DD')
     QRY_TO_EXEC = `update reverted_stud_csv_admin_t set u_by=?, assigned_to = ?, assigned_by=?,student_interest=null,assign_indicator=0,u_ts=? where id in (?);`
-    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [logged_user_id, selected_advisor_id,logged_user_id,current_timestamp,selected_student_id], function (err, results) {
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [logged_user_id, selected_advisor_id, logged_user_id, current_timestamp, selected_student_id], function (err, results) {
         if (err) {
             callback(err, 0)
             return
@@ -374,10 +380,6 @@ exports.reverted_stud_list_csv = (logged_user_id, role_id, callback) => {
 
 exports.reverted_stud_save_button = (logged_user_id, selected_user_id, selected_checkbox_id, callback) => {
     let cntxtDtls = "Get reverted_stud_save_button api";
-    //    selected_checkbox_id.forEach(async function(element,index){
-    //     element
-    //    })
-    // return
     QRY_TO_EXEC = `update reverted_stud_csv_admin_t set is_active=0, assigned_to=${selected_user_id},assigned_by=${logged_user_id}
     where id in (${selected_checkbox_id});`
     dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
@@ -392,10 +394,41 @@ exports.reverted_stud_save_button = (logged_user_id, selected_user_id, selected_
     })
 }
 
-exports.advisor_create_student = (username, phoneNumber, email, password, created_user_id,callback) => {
+exports.admin_reverted_list_get = (callback) => {
+    let cntxtDtls = "Get admin_reverted_list_get api";
+    QRY_TO_EXEC = `SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where student_interest='No' or student_interest='Future Followup' and is_active=1;`
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
+        }
+    })
+}
+
+exports.admin_reverted_list_delete = (id,callback) => {
+    let cntxtDtls = "Get admin_reverted_list_delete api";
+    QRY_TO_EXEC = `delete from reverted_stud_csv_admin_t where id in (?);`
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [id], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
+        }
+    })
+}
+
+exports.advisor_create_student = ( email, password, callback) => {
     let cntxtDtls = "Get advisor_todo_row_save api";
     QRY_TO_EXEC = `insert into users_dtl_t(user_name,phone_no,email,pwd,c_by,role) values(?)`
-    let values=[username,phoneNumber,email,password,created_user_id,4]
+    let values = [username, phoneNumber, email, password, created_user_id, 4]
     dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [values], function (err, results) {
         if (err) {
             callback(err, 0)
@@ -404,6 +437,36 @@ exports.advisor_create_student = (username, phoneNumber, email, password, create
         else {
             callback(err, results)
             return
+        }
+    })
+}
+
+exports.login_new = (email, password, callback) => {
+    let cntxtDtls = "Get login_new api";
+    QRY_TO_EXEC = `SELECT * FROM user_new where email=?`
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [email], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            if (results.length == 0) {
+                callback(0, null, 1)
+                return
+            }
+            else {
+                QRY_TO_EXEC = `SELECT * FROM user_new where email=? and pwd=? `
+                dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [email, password], function (err, results1) {
+                    if (results1 == 0) {
+                        callback(err, null, 2)
+                        return
+                    }
+                    else {
+                        callback(err, results1)
+                        return
+                    }
+                })
+            }
         }
     })
 }

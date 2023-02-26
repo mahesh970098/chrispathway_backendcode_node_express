@@ -3,12 +3,13 @@ const mysql = require('mysql');
 USER = 'root'
 PWD = 'root'
 DATABASE = "charispathway"
+// DATABASE = "newapp"
 DB_HOST_NAME = "localhost"
 
 
 
 const MySQLConPool = mysql.createPool({
-    
+
     user: USER,
     password: PWD,
     database: DATABASE,

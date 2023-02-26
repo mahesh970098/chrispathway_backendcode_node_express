@@ -25,8 +25,8 @@ router.post('/admin_csv_upload', upload.fields([{
 
 router.post('/assigned_stud_list_csv', adminRoutes.reverted_stud_list_csv)
 router.post('/assigned_stud_save_button', adminRoutes.reverted_stud_save_button)
-
-
+router.get('/admin_reverted_list_get', adminRoutes.admin_reverted_list_get)
+router.post('/admin_reverted_list_delete', adminRoutes.admin_reverted_list_delete)
 //manage roles get api
 router.get('/manage_roles_get', adminRoutes.manage_roles_get)
 router.post('/manage_roles_delete', adminRoutes.manage_roles_delete)
@@ -38,4 +38,6 @@ router.post('/advisor_create_student', adminRoutes.advisor_create_student)
 router.get('/advisor_assign_stud_dropdown', adminRoutes.advisor_assign_stud_dropdown)
 router.post('/advisor_assign_advisorname_dropdown', adminRoutes.advisor_assign_advisorname_dropdown)
 router.post('/advisor_assign_form_submit', adminRoutes.advisor_assign_form_submit)
+
+router.post('/login_new', adminRoutes.login_new)
 module.exports = router;

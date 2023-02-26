@@ -854,3 +854,66 @@
 2023-02-24 15:14:25 [32minfo[39m: 	Requested URL : 
 2023-02-24 15:14:25 [32minfo[39m: 	/assigned_stud_list_csv
 2023-02-24 15:14:25 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1
+2023-02-24 23:24:32 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-02-24 23:52:32 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:32 [32minfo[39m: 	/login
+2023-02-24 23:52:32 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:32 [32minfo[39m: 	/login
+2023-02-24 23:52:32 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='Monika.charispathway@gmail.com'
+2023-02-24 23:52:32 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='Monika.charispathway@gmail.com' and pwd='9492033837' 
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/view_task
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/view_task
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-24 23:52:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-24 23:52:33 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:52:33 [32minfo[39m: 	/roles
+2023-02-24 23:52:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-24 23:52:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-24 23:52:33 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-02-24 23:52:33 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1  and   is_active=1 and year(c_ts)='2023';
+2023-02-24 23:52:33 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/view_task
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/names_basedon_role
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/view_task
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/assigned_stud_list_csv
+2023-02-24 23:54:04 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3;
+2023-02-24 23:54:04 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2;
+2023-02-24 23:54:04 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4;
+2023-02-24 23:54:04 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1  and   is_active=1 and year(c_ts)='2023';
+2023-02-24 23:54:04 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1
+2023-02-24 23:54:04 [32minfo[39m: 	Requested URL : 
+2023-02-24 23:54:04 [32minfo[39m: 	/roles
+2023-02-24 23:54:04 [32minfo[39m: 	SELECT * FROM roles_table where status=1;

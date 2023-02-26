@@ -141,8 +141,9 @@ exports.creating_task = (async (req, res) => {
 exports.view_task = (async (req, res) => {
     let logged_user_id = req.body.logged_user_id;
     let year = req.body.year;
+    let status = req.body.status;
     console.log("hi")
-    adminModel.view_task(logged_user_id, year, async (err, Data18, flag) => {
+    adminModel.view_task(logged_user_id, year, status, async (err, Data18, flag) => {
         if (err) {
             logger.error('Error While Getting view_task ', err);
             res.send({ "result": stdCodes.message.serverError.code, "message": "" });
@@ -167,8 +168,14 @@ exports.view_task_status_update = (async (req, res) => {
             return;
         }
         else {
-            res.send({ "result": "success", "Message": "Updated Successfully" });
-            return;
+            if (status == "Delete") {
+                res.send({ "result": "success", "Message": "Deleted Successfully" });
+                return;
+            }
+            else {
+                res.send({ "result": "success", "Message": "Updated Successfully" });
+                return;
+            }
         }
     });
 })
@@ -253,12 +260,12 @@ exports.manage_roles_delete = (async (req, res) => {
     });
 })
 
-exports.advisor_todo_row_save= (async (req, res) => {
+exports.advisor_todo_row_save = (async (req, res) => {
     let student_interest = req.body.student_interest;
     let to_do_id = req.body.to_do_id
     let assign_checkbox = req.body.assign_checkbox
     console.log("hi")
-    adminModel.advisor_todo_row_save(student_interest, to_do_id, assign_checkbox,async (err, Data18, flag) => {
+    adminModel.advisor_todo_row_save(student_interest, to_do_id, assign_checkbox, async (err, Data18, flag) => {
         if (err) {
             logger.error('Error While Getting manage_roles_delete ', err);
             res.send({ "result": stdCodes.message.serverError.code, "message": "" });
@@ -307,9 +314,9 @@ exports.advisor_assign_stud_dropdown = (async (req, res) => {
 })
 
 exports.advisor_assign_advisorname_dropdown = (async (req, res) => {
-    let logged_user_id=req.body.logged_user_id
+    let logged_user_id = req.body.logged_user_id
     console.log("hi")
-    adminModel.advisor_assign_advisorname_dropdown(logged_user_id,async (err, Data18, flag) => {
+    adminModel.advisor_assign_advisorname_dropdown(logged_user_id, async (err, Data18, flag) => {
         if (err) {
             logger.error('Error While Getting manage_roles_delete ', err);
             res.send({ "result": stdCodes.message.serverError.code, "message": "" });
@@ -324,18 +331,18 @@ exports.advisor_assign_advisorname_dropdown = (async (req, res) => {
 
 exports.advisor_assign_form_submit = (async (req, res) => {
     let logged_user_id = req.body.logged_user_id
-    let selected_student_id=req.body.selected_student_id;
-    let selected_advisor_id=req.body.assigned_person_id;
-    let conflicts_faced=req.body.conflicts_faced
+    let selected_student_id = req.body.selected_student_id;
+    let selected_advisor_id = req.body.assigned_person_id;
+    let conflicts_faced = req.body.conflicts_faced
     console.log("hi")
-    adminModel.advisor_assign_form_submit(logged_user_id, selected_student_id, selected_advisor_id,conflicts_faced,async (err, Data18, flag) => {
+    adminModel.advisor_assign_form_submit(logged_user_id, selected_student_id, selected_advisor_id, conflicts_faced, async (err, Data18, flag) => {
         if (err) {
             logger.error('Error While Getting manage_roles_delete ', err);
             res.send({ "result": stdCodes.message.serverError.code, "message": "" });
             return;
         }
         else {
-            res.send({ "result": "success", "Message":"Assigned Successfully"});
+            res.send({ "result": "success", "Message": "Assigned Successfully" });
             return;
         }
     });
@@ -345,40 +352,39 @@ exports.admin_csv_upload = (async (req, res) => {
     let current_timestamp = moment().format('YYYYMMDDHHmmss');
     // console.log(req.files,"files log::::::::")
     let multiple_record_file = current_timestamp + "_" + req.files.file_upload[0].originalname;
-    if(req.files)
-    {
-      if (!fs.existsSync("./filestorage/adminCSV")){
-        fs.mkdirSync("./filestorage/adminCSV", { recursive: true });
-    }
-    await fs.writeFile("./filestorage/adminCSV/" + current_timestamp + "_" + req.files.file_upload[0].originalname, req.files.file_upload[0].buffer,async function(err) {
-        if(err) {
-           logger.error('Error While Getting AssetDetails_Multiple_record %s', err);
-        res.send({ "code": stdCodes.message.serverError.code, "message": stdCodes.message.serverError.message });
-        return;
+    if (req.files) {
+        if (!fs.existsSync("./filestorage/adminCSV")) {
+            fs.mkdirSync("./filestorage/adminCSV", { recursive: true });
         }
-        else{
-            console.log("hi", multiple_record_file)
-            adminModel.admin_csv_upload(multiple_record_file,async (err, Data18, flag) => {
-        if (err) {
-            logger.error('Error While Getting notification_display ', err);
-            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
-            return;
-        }
-        else {
-            res.send({ "result": "success", "message" :"File Uploaded Successfully"});
-            return;
-        }
-    });
-}
+        await fs.writeFile("./filestorage/adminCSV/" + current_timestamp + "_" + req.files.file_upload[0].originalname, req.files.file_upload[0].buffer, async function (err) {
+            if (err) {
+                logger.error('Error While Getting AssetDetails_Multiple_record %s', err);
+                res.send({ "code": stdCodes.message.serverError.code, "message": stdCodes.message.serverError.message });
+                return;
+            }
+            else {
+                console.log("hi", multiple_record_file)
+                adminModel.admin_csv_upload(multiple_record_file, async (err, Data18, flag) => {
+                    if (err) {
+                        logger.error('Error While Getting notification_display ', err);
+                        res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+                        return;
+                    }
+                    else {
+                        res.send({ "result": "success", "message": "File Uploaded Successfully" });
+                        return;
+                    }
+                });
+            }
         })
     }
 })
 
 exports.reverted_stud_list_csv = (async (req, res) => {
     console.log("hi")
-    let logged_user_id=req.body.logged_user_id;
-    let  role_id=req.body.role_id;
-    adminModel.reverted_stud_list_csv(logged_user_id, role_id,async (err, Data18, flag) => {
+    let logged_user_id = req.body.logged_user_id;
+    let role_id = req.body.role_id;
+    adminModel.reverted_stud_list_csv(logged_user_id, role_id, async (err, Data18, flag) => {
         if (err) {
             logger.error('Error While Getting reverted_stud_list_csv ', err);
             res.send({ "result": stdCodes.message.serverError.code, "message": "" });
@@ -391,11 +397,11 @@ exports.reverted_stud_list_csv = (async (req, res) => {
     });
 })
 
-exports.reverted_stud_save_button= (async (req, res) => {
+exports.reverted_stud_save_button = (async (req, res) => {
     console.log("hi")
     let logged_user_id = req.body.logged_user_id;
     let selected_user_id = req.body.selected_user_id;
-    let selected_checkbox_id=req.body.selected_checkbox_id
+    let selected_checkbox_id = req.body.selected_checkbox_id
     adminModel.reverted_stud_save_button(logged_user_id, selected_user_id, selected_checkbox_id, async (err, Data18, flag) => {
         if (err) {
             logger.error('Error While Getting reverted_stud_save_button ', err);
@@ -403,8 +409,71 @@ exports.reverted_stud_save_button= (async (req, res) => {
             return;
         }
         else {
-            res.send({ "result": "success", "message":"Assigned Successfully" });
+            res.send({ "result": "success", "message": "Assigned Successfully" });
             return;
         }
     });
+})
+
+exports.admin_reverted_list_get = (async (req, res) => {
+    console.log("hi")
+    adminModel.admin_reverted_list_get(async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting admin_reverted_list_get ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "Data": Data18});
+            return;
+        }
+    });
+})
+
+exports.admin_reverted_list_delete = (async (req, res) => {
+    console.log("hi")
+    let id = req.body.id;
+    adminModel.admin_reverted_list_delete(id, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting admin_reverted_list_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "Data": Data18 });
+            return;
+        }
+    });
+})
+
+
+exports.login_new = (async (req, res) => {
+    let email = req.body.email;
+    let password = req.body.password;
+    console.log("hi")
+    adminModel.login_new(email, password, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting Meeting Data ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            if (flag == 1) {
+                res.send({ "result": "Fail", "Message": "Email Does not Exists!" });
+                return;
+            }
+            else if (flag == 2) {
+                res.send({ "result": "Fail", "Message": "Incorrect password!" });
+                return;
+            }
+            else {
+
+                res.send({ "result": "success", "data": Data18 });
+                return;
+            }
+        }
+
+    });
+
+
 })
