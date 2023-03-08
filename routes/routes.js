@@ -37,7 +37,20 @@ router.post('/advisor_create_student', adminRoutes.advisor_create_student)
 
 router.get('/advisor_assign_stud_dropdown', adminRoutes.advisor_assign_stud_dropdown)
 router.post('/advisor_assign_advisorname_dropdown', adminRoutes.advisor_assign_advisorname_dropdown)
-router.post('/advisor_assign_form_submit', adminRoutes.advisor_assign_form_submit)
+router.post('/advisor_assign_form_submit', adminRoutes.advisor_assign_form_submit);
+router.post('/trackProcess', adminRoutes.trackProcess);
+//advisorForm
+router.post('/count_check_advisor_form', adminRoutes.count_check_advisor_form);
+router.post('/advisor_form_studNames_dropdown', adminRoutes.advisor_form_studNames_dropdown);
+router.post('/advisor_formAssign_submit_button', adminRoutes.advisor_formAssign_submit_button);
+
+router.post('/edit_profile', adminRoutes.edit_profile);
+
+router.post('/change_password', adminRoutes.change_password);
+
+// advisor_formassign_submit_button
+
+
 
 router.post('/login_new', adminRoutes.login_new)
 module.exports = router;

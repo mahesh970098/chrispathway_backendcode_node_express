@@ -424,7 +424,7 @@ exports.admin_reverted_list_get = (async (req, res) => {
             return;
         }
         else {
-            res.send({ "result": "success", "Data": Data18});
+            res.send({ "result": "success", "Data": Data18 });
             return;
         }
     });
@@ -476,4 +476,146 @@ exports.login_new = (async (req, res) => {
     });
 
 
+})
+
+exports.trackProcess = (async (req, res) => {
+    console.log("hi")
+    let advisor_id = req.body.advisor_id;
+    adminModel.trackProcess(advisor_id, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting admin_reverted_list_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            if (flag == 1) {
+                res.send({ "result": "success", "Message": "No Records Found ." });
+                return;
+            }
+            else {
+                res.send({ "result": "success", "Data": Data18 });
+                return;
+            }
+        }
+    });
+})
+
+exports.count_check_advisor_form = (async (req, res) => {
+    console.log("hi")
+    let advisor_id = req.body.advisor_id;
+    let entered_count = req.body.entered_count;
+    adminModel.count_check_advisor_form(advisor_id, entered_count, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting admin_reverted_list_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            if (flag == 1) {
+                res.send({ "result": "success", "Message": "No Records Found ." });
+                return;
+            }
+            if (flag == 2) {
+                res.send({ "result": "success", "Message": `advisor has only ${Data18} student.` });
+                return;
+            }
+            else {
+                res.send({ "result": "success", "Data": Data18 });
+                return;
+            }
+        }
+    });
+})
+
+exports.advisor_form_studNames_dropdown = (async (req, res) => {
+    console.log("hi")
+    let advisor_id = req.body.advisor_id;
+    let selected_student_id = req.body.selected_student_id;
+    console.log(selected_student_id, "***")
+    adminModel.advisor_form_studNames_dropdown(advisor_id, selected_student_id, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting admin_reverted_list_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            if (flag == 1) {
+                res.send({ "result": "success", "Message": "No Records Found ." });
+                return;
+            }
+            if (flag == 2) {
+                res.send({ "result": "success", "Message": `advisor has only ${Data18} student.` });
+                return;
+            }
+            else {
+                res.send({ "result": "success", "Data": Data18 });
+                return;
+            }
+        }
+    });
+})
+
+exports.advisor_formAssign_submit_button = (async (req, res) => {
+    console.log("hi")
+    let data = req.body.data;
+    let logged_user_id = req.body.logged_user_id;
+    adminModel.advisor_formAssign_submit_button(data, logged_user_id, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting admin_reverted_list_delete ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            // if (flag == 1) {
+            //     res.send({ "result": "success", "Message": "No Records Found ." });
+            //     return;
+            // }
+            // if (flag == 2) {
+            //     res.send({ "result": "success", "Message": `Incubator has only ${Data18} student.` });
+            //     return;
+            // }
+            // else {
+            res.send({ "result": "success", "Message": "Submitted Successfully" });
+            return;
+        }
+        // }
+    });
+})
+
+exports.edit_profile = (async (req, res) => {
+    console.log("hi")
+    let logged_user_id = req.body.logged_user_id;
+    let user_name = req.body.user_name;
+    let phone_number = req.body.phone_number;
+
+
+    adminModel.edit_profile(logged_user_id, user_name, phone_number, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting edit_profile ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "Data": Data18 });
+            return;
+        }
+    });
+})
+
+exports.change_password = (async (req, res) => {
+    console.log("hi")
+    let new_password = req.body.new_password;
+    let logged_user_id=req.body.logged_user_id;
+   
+    adminModel.change_password(new_password, logged_user_id, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting edit_profile ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "Data": Data18 });
+            return;
+        }
+    });
 })
