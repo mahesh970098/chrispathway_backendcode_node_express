@@ -116,11 +116,11 @@ exports.view_task = (logged_user_id, year, status, callback) => {
 
 
     if (year != 0) {
-        QRY_TO_EXEC = `SELECT * FROM tasks_dlt_t where c_by=${logged_user_id}  and   is_active=1 and year(c_ts)='${year}' and status='${status}';`
+        QRY_TO_EXEC = `SELECT * FROM tasks_dlt_t where c_by=${logged_user_id}  and   is_active=1 and year(c_ts)='${year}' and status='${status}' order by id desc;`
 
     }
     else {
-        QRY_TO_EXEC = `SELECT * FROM tasks_dlt_t where c_by=${logged_user_id} and status="In Progress" and is_active=1;`
+        QRY_TO_EXEC = `SELECT * FROM tasks_dlt_t where c_by=${logged_user_id} and status="In Progress" and is_active=1 order by id desc;`
     }
 
 
@@ -172,6 +172,21 @@ exports.names_basedon_role = (logged_role_id, callback) => {
     })
 }
 
+exports.advisor_names_exceptlogged = (logged_user_id, callback) => {
+    let cntxtDtls = "Get advisor_names_exceptlogged api";
+    QRY_TO_EXEC = `SELECT id,user_name,email FROM users_dtl_t where role=2 and id !=? and is_active=1;`
+    dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [logged_user_id], function (err, results) {
+        if (err) {
+            callback(err, 0)
+            return
+        }
+        else {
+            callback(err, results)
+            return
+        }
+    })
+}
+
 
 exports.send_message = (selected_role_id, selected_name, message, logged_user_id, callback) => {
     let cntxtDtls = "Get send_message api";
@@ -195,7 +210,7 @@ exports.notification_display = (selected_role_id, logged_user_id, callback) => {
     let cntxtDtls = "Get notification_display api";
     QRY_TO_EXEC = `select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
 join users_dtl_t as u on u.id=s.created_by
- where role_id=?  and name=?;`
+ where role_id=?  and name=? order by s.id desc;`
     // let val = [selected_role_id, selected_name, message, logged_user_id]
     dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [selected_role_id, logged_user_id], function (err, results) {
         if (err) {
@@ -205,7 +220,6 @@ join users_dtl_t as u on u.id=s.created_by
         else {
             callback(err, results)
             return
-
         }
     })
 }
@@ -222,7 +236,6 @@ join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;`
         else {
             callback(err, results)
             return
-
         }
     })
 }
@@ -401,8 +414,8 @@ exports.reverted_stud_save_button = (logged_user_id, selected_user_id, selected_
 
 exports.admin_reverted_list_get = (callback) => {
     let cntxtDtls = "Get admin_reverted_list_get api";
-    QRY_TO_EXEC = `SELECT * FROM charispathway.reverted_stud_csv_admin_t 
-    where  student_interest='Future Followup' and is_active=1;`
+    QRY_TO_EXEC = `SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;`
     dbutil.execQuery(sqldb.MySQLConPool, QRY_TO_EXEC, cntxtDtls, [], function (err, results) {
         if (err) {
             callback(err, 0)

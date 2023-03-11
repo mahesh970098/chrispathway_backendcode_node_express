@@ -6,21 +6,6 @@
     "auditLog": "logs\\.64963e9e6d4cbcbe4edf43e6b73592e902c3ea6a-audit.json",
     "files": [
         {
-            "date": 1677945910205,
-            "name": "logs\\ReqRes_2023-03-04.log",
-            "hash": "6bc1e3ca73131e328029892329cf6c023bec325301450197b255c14fc444c91d"
-        },
-        {
-            "date": 1677958312102,
-            "name": "logs\\ReqRes_2023-03-05.log",
-            "hash": "9fb0c2a5b1c7a87c1341ad374478e611510171f6040b801de2bff86c13775f1d"
-        },
-        {
-            "date": 1678078160114,
-            "name": "logs\\ReqRes_2023-03-06.log",
-            "hash": "ddf25f4b8ba1ade2bafc9f6d469d0a934760ef02ecfb41074fc33abbf710686a"
-        },
-        {
             "date": 1678173072677,
             "name": "logs\\ReqRes_2023-03-07.log",
             "hash": "869ee01f4fa5ec49da2269b4ed1487a5c8754f310d49867bdf32164b0651e45f"
@@ -29,6 +14,21 @@
             "date": 1678252498129,
             "name": "logs\\ReqRes_2023-03-08.log",
             "hash": "08737ef606326d10a27fcf4e64f8744e8eb2d3f7164e443d4486bf5b5a3002ca"
+        },
+        {
+            "date": 1678338394020,
+            "name": "logs\\ReqRes_2023-03-09.log",
+            "hash": "d8736171249b079564792d2a01acad91c58ccf28322a7f4df48fca94bf559a1f"
+        },
+        {
+            "date": 1678426283882,
+            "name": "logs\\ReqRes_2023-03-10.log",
+            "hash": "e7fd556bea9192b09235c0f631d5d499b7cb261a5dd08adb490361c091fb691d"
+        },
+        {
+            "date": 1678515598318,
+            "name": "logs\\ReqRes_2023-03-11.log",
+            "hash": "e3ee36e0390d90f664973ff408933f36959654a4ee78d8ea85ce6989495ab9cd"
         }
     ],
     "hashType": "sha256"

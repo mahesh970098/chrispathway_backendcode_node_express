@@ -195,6 +195,23 @@ exports.names_basedon_role = (async (req, res) => {
         }
     });
 })
+
+exports.advisor_names_exceptlogged = (async (req, res) => {
+    let logged_user_id = req.body.logged_user_id;
+    console.log("hi")
+    adminModel.advisor_names_exceptlogged(logged_user_id, async (err, Data18, flag) => {
+        if (err) {
+            logger.error('Error While Getting advisor_names_exceptlogged ', err);
+            res.send({ "result": stdCodes.message.serverError.code, "message": "" });
+            return;
+        }
+        else {
+            res.send({ "result": "success", "data": Data18 });
+            return;
+        }
+    });
+})
+
 exports.send_message = (async (req, res) => {
     let selected_role_id = req.body.selected_role_id;
     let selected_name = req.body.selected_name_id;
@@ -605,8 +622,8 @@ exports.edit_profile = (async (req, res) => {
 exports.change_password = (async (req, res) => {
     console.log("hi")
     let new_password = req.body.new_password;
-    let logged_user_id=req.body.logged_user_id;
-   
+    let logged_user_id = req.body.logged_user_id;
+
     adminModel.change_password(new_password, logged_user_id, async (err, Data18, flag) => {
         if (err) {
             logger.error('Error While Getting edit_profile ', err);

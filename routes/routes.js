@@ -16,6 +16,8 @@ router.post('/creating_task', adminRoutes.creating_task)
 router.post('/view_task', adminRoutes.view_task)
 router.post('/view_task_status_update', adminRoutes.view_task_status_update)
 router.post('/names_basedon_role', adminRoutes.names_basedon_role)
+router.post('/advisor_names_exceptlogged', adminRoutes.advisor_names_exceptlogged)
+
 router.post('/send_message', adminRoutes.send_message)
 router.post('/notification_display', adminRoutes.notification_display)
 

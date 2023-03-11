@@ -1,0 +1,2356 @@
+2023-03-10 11:01:25 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:03:36 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:36 [32minfo[39m: 	/login
+2023-03-10 11:03:36 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:36 [32minfo[39m: 	/login
+2023-03-10 11:03:36 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='Monika.charispathway@gmail.com'
+2023-03-10 11:03:36 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='Monika.charispathway@gmail.com' and pwd='9492033837' 
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/view_task
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/notification_display
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/view_task
+2023-03-10 11:03:37 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/notification_display
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:03:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:37 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:03:38 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:03:38 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:03:38 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:03:38 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:38 [32minfo[39m: 	/roles
+2023-03-10 11:03:38 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:03:38 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:03:38 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:03:38 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:03:38 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:03:38 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:03:38 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:26 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:26 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:26 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:26 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:26 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:26 [32minfo[39m: 	/view_task
+2023-03-10 11:04:26 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:04:26 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:04:26 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:26 [32minfo[39m: 	/view_task
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:26 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:04:26 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:26 [32minfo[39m: 	/notification_display
+2023-03-10 11:04:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:27 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:04:27 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:27 [32minfo[39m: 	/notification_display
+2023-03-10 11:04:27 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:27 [32minfo[39m: 	/roles
+2023-03-10 11:04:27 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:27 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:04:27 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:27 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:04:27 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:04:27 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:04:27 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:04:27 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:04:27 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:04:58 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:58 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:04:58 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:04:58 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:04:58 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and role='2' and phone_no='9704065712';
+2023-03-10 11:06:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:14 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:06:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:14 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:06:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:14 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:06:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:14 [32minfo[39m: 	/view_task
+2023-03-10 11:06:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:14 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:06:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:14 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:06:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:14 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:06:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:14 [32minfo[39m: 	/view_task
+2023-03-10 11:06:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:14 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:06:14 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:06:15 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:06:15 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:06:15 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:15 [32minfo[39m: 	/notification_display
+2023-03-10 11:06:16 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:06:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:16 [32minfo[39m: 	/roles
+2023-03-10 11:06:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:16 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:06:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:16 [32minfo[39m: 	/notification_display
+2023-03-10 11:06:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:16 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:06:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:16 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:06:16 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:06:16 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:06:16 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:06:16 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:06:16 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:06:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:33 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:06:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:06:33 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:06:33 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='test19@gmail.com' and role=2 and phone_no='9704065712';
+2023-03-10 11:06:33 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on,offerletter_upload,c_by) 
+                values("test19@gmail.com","","2","asd","asd","9704065712","2023-03-11T11:06","",1);
+2023-03-10 11:06:33 [32minfo[39m: 	select * from users_dtl_t where id=67;
+2023-03-10 11:07:09 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:09 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:07:09 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:09 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:07:09 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:09 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:07:09 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:09 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:07:09 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:09 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:07:09 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:09 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:07:09 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:09 [32minfo[39m: 	/view_task
+2023-03-10 11:07:09 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:07:09 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:07:09 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:07:09 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:09 [32minfo[39m: 	/view_task
+2023-03-10 11:07:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:10 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:07:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:10 [32minfo[39m: 	/notification_display
+2023-03-10 11:07:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:10 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:07:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:10 [32minfo[39m: 	/notification_display
+2023-03-10 11:07:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:10 [32minfo[39m: 	/roles
+2023-03-10 11:07:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:10 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:07:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:07:10 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:07:10 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:07:10 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:07:10 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:07:10 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:07:10 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:07:10 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:08:18 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:08:18 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:08:18 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/view_task
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/view_task
+2023-03-10 11:08:18 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/notification_display
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:08:18 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:08:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:18 [32minfo[39m: 	/notification_display
+2023-03-10 11:08:18 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:08:19 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:19 [32minfo[39m: 	/roles
+2023-03-10 11:08:19 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:19 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:08:19 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:08:19 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:08:19 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:08:19 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:08:19 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:09:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:09:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:09:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:09:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:09:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:09:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:09:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:09:59 [32minfo[39m: 	/view_task
+2023-03-10 11:09:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:09:59 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:09:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:09:59 [32minfo[39m: 	/notification_display
+2023-03-10 11:09:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:09:59 [32minfo[39m: 	/roles
+2023-03-10 11:09:59 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:09:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:09:59 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:09:59 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:10:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:10:00 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:10:00 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:10:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:10:00 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:10:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:10:00 [32minfo[39m: 	/view_task
+2023-03-10 11:10:00 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:10:00 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:10:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:10:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:10:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:10:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:10:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:10:01 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:10:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:10:01 [32minfo[39m: 	/notification_display
+2023-03-10 11:10:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:10:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:10:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:10:01 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:10:27 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:10:27 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:10:27 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:10:27 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:10:27 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='test16@gmail.com' and role=2 and phone_no='9704065712';
+2023-03-10 11:10:27 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on,offerletter_upload,c_by) 
+                values("test16@gmail.com","","2","Test","deveploer12","9704065712","2023-03-12T11:10","",1);
+2023-03-10 11:10:27 [32minfo[39m: 	select * from users_dtl_t where id=68;
+2023-03-10 11:11:13 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:13 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:11:13 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:13 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:11:13 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:13 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:11:13 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:13 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:11:13 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:13 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:11:13 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:11:13 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:11:13 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:11:13 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:13 [32minfo[39m: 	/view_task
+2023-03-10 11:11:13 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:13 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:11:13 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:14 [32minfo[39m: 	/notification_display
+2023-03-10 11:11:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:14 [32minfo[39m: 	/view_task
+2023-03-10 11:11:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:14 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:11:15 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:15 [32minfo[39m: 	/notification_display
+2023-03-10 11:11:15 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:15 [32minfo[39m: 	/roles
+2023-03-10 11:11:15 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:15 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:11:15 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:11:15 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:15 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:11:15 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:11:15 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:11:15 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:11:15 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:11:15 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:11:34 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:34 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:11:34 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:11:34 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:11:34 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh12@gmail.com' and role=2 and phone_no='9704065712';
+2023-03-10 11:11:34 [32minfo[39m: 	insert into users_dtl_t (email, pwd, role, user_name,designation, phone_no, joined_on,offerletter_upload,c_by) 
+                values("mahesh12@gmail.com","","2","Test","deveploer","9704065712","2023-03-05T11:11","",1);
+2023-03-10 11:11:34 [32minfo[39m: 	select * from users_dtl_t where id=69;
+2023-03-10 11:12:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:12:16 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:12:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:12:16 [32minfo[39m: 	/admincreateUser
+2023-03-10 11:12:16 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh12@gmail.com' and role=2 and phone_no='9704065712';
+2023-03-10 11:13:25 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:25 [32minfo[39m: 	/login
+2023-03-10 11:13:25 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:25 [32minfo[39m: 	/login
+2023-03-10 11:13:25 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com'
+2023-03-10 11:13:25 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and pwd='OgLl6bRLJn' 
+2023-03-10 11:13:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:26 [32minfo[39m: 	/notification_display
+2023-03-10 11:13:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:26 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:13:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:26 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:26 [32minfo[39m: 	/trackProcess
+2023-03-10 11:13:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:26 [32minfo[39m: 	/notification_display
+2023-03-10 11:13:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:26 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:13:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:26 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:26 [32minfo[39m: 	/trackProcess
+2023-03-10 11:13:26 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65;
+2023-03-10 11:13:26 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:13:26 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:13:26 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:13:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:31 [32minfo[39m: 	/send_message
+2023-03-10 11:13:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:31 [32minfo[39m: 	/send_message
+2023-03-10 11:13:31 [32minfo[39m: 	insert into send_message_dtl_t (role_id, name, message, created_by) values(1, 1, 'heloooooooooooooooooo', 65)
+2023-03-10 11:13:31 [32minfo[39m: 	select * from send_message_dtl_t where id=59 
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/view_task
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/notification_display
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/view_task
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/notification_display
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:13:35 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:13:35 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:13:35 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:13:35 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/roles
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:13:35 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:13:35 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:13:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:35 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:13:35 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:13:35 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:13:35 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:13:50 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:50 [32minfo[39m: 	/creating_task
+2023-03-10 11:13:50 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:50 [32minfo[39m: 	/creating_task
+2023-03-10 11:13:50 [32minfo[39m: 	select * from tasks_dlt_t where task_name='task1' and task_desc='asdasdasd'
+2023-03-10 11:13:50 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('task1', 'asdasdasd', 1, 1)
+2023-03-10 11:13:50 [32minfo[39m: 	select * from tasks_dlt_t where id=56
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/view_task
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/view_task
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/notification_display
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:13:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:13:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/notification_display
+2023-03-10 11:13:53 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:13:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/roles
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:13:53 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:13:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:53 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:13:53 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:13:53 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:13:53 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:13:53 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:13:58 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:58 [32minfo[39m: 	/creating_task
+2023-03-10 11:13:58 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:13:58 [32minfo[39m: 	/creating_task
+2023-03-10 11:13:58 [32minfo[39m: 	select * from tasks_dlt_t where task_name='task21' and task_desc='asdasdasd'
+2023-03-10 11:13:58 [32minfo[39m: 	insert into tasks_dlt_t(task_name, task_desc, created_role_id, c_by) values('task21', 'asdasdasd', 1, 1)
+2023-03-10 11:13:58 [32minfo[39m: 	select * from tasks_dlt_t where id=57
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/view_task
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/notification_display
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/view_task
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/notification_display
+2023-03-10 11:14:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:14:00 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:14:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:14:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:14:00 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/roles
+2023-03-10 11:14:00 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:14:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:00 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:14:00 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:14:01 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:14:01 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:14:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:14:18 [32minfo[39m: 	/notification_display
+2023-03-10 11:14:18 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1;
+2023-03-10 11:14:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:15:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:02 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:02 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:02 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:02 [32minfo[39m: 	/roles
+2023-03-10 11:15:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:02 [32minfo[39m: 	/view_task
+2023-03-10 11:15:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:02 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:15:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:02 [32minfo[39m: 	/notification_display
+2023-03-10 11:15:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:02 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:15:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:02 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:15:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:03 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:03 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:03 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:03 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:15:03 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:15:03 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:15:03 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:15:03 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:15:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:03 [32minfo[39m: 	/view_task
+2023-03-10 11:15:03 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:15:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:03 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:15:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:03 [32minfo[39m: 	/notification_display
+2023-03-10 11:15:03 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:15:03 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:15:03 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by id desc;
+2023-03-10 11:15:03 [31merror[39m: 	Error While Getting notification_display  ER_NON_UNIQ_ERROR: Column 'id' in order clause is ambiguous
+2023-03-10 11:15:05 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:05 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:05 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:05 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:05 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:05 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:05 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:05 [32minfo[39m: 	/view_task
+2023-03-10 11:15:05 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:05 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:15:05 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:05 [32minfo[39m: 	/notification_display
+2023-03-10 11:15:05 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:15:05 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:15:05 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:15:05 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:15:05 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:15:05 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by id desc;
+2023-03-10 11:15:05 [31merror[39m: 	Error While Getting notification_display  ER_NON_UNIQ_ERROR: Column 'id' in order clause is ambiguous
+2023-03-10 11:15:05 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:05 [32minfo[39m: 	/roles
+2023-03-10 11:15:05 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:05 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:15:05 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:05 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:15:06 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:15:06 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:15:06 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:15:32 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:15:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:39 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:39 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:39 [32minfo[39m: 	/roles
+2023-03-10 11:15:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:39 [32minfo[39m: 	/view_task
+2023-03-10 11:15:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:39 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:39 [32minfo[39m: 	/notification_display
+2023-03-10 11:15:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:39 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:15:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:39 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:15:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:40 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:40 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:40 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:15:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:40 [32minfo[39m: 	/view_task
+2023-03-10 11:15:40 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:15:40 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:15:40 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:15:40 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:15:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:40 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:15:40 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:15:40 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:15:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:40 [32minfo[39m: 	/notification_display
+2023-03-10 11:15:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:40 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:15:40 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:15:40 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:15:40 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:15:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:15:56 [32minfo[39m: 	/view_task
+2023-03-10 11:15:56 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1;
+2023-03-10 11:16:50 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:16:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:56 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/view_task
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/notification_display
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/roles
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:16:57 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:16:57 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:16:57 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:16:57 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:16:57 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:16:57 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/view_task
+2023-03-10 11:16:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:16:57 [32minfo[39m: 	/notification_display
+2023-03-10 11:16:57 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:16:57 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:16:57 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:17:36 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:17:36 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:17:36 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:18:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:18:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:18:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:18:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:18:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:18:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:06 [32minfo[39m: 	/view_task
+2023-03-10 11:18:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:18:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:06 [32minfo[39m: 	/view_task
+2023-03-10 11:18:06 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:18:06 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:18:07 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:18:07 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:18:07 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:07 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:18:07 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:08 [32minfo[39m: 	/notification_display
+2023-03-10 11:18:08 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:08 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:18:08 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:08 [32minfo[39m: 	/roles
+2023-03-10 11:18:08 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:08 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:18:08 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:08 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:18:08 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:18:08 [32minfo[39m: 	/notification_display
+2023-03-10 11:18:08 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:18:08 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:18:08 [32minfo[39m: 	SELECT * FROM charispathway.reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1;
+2023-03-10 11:18:08 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:18:08 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:19:50 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:20:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:00 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:20:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:01 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:01 [32minfo[39m: 	/view_task
+2023-03-10 11:20:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:01 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:02 [32minfo[39m: 	/notification_display
+2023-03-10 11:20:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:02 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:02 [32minfo[39m: 	/roles
+2023-03-10 11:20:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:02 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:20:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:02 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:20:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:02 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:20:02 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:20:02 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:20:02 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:20:02 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:20:02 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:20:02 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by row_time_save desc;
+2023-03-10 11:20:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:02 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:03 [32minfo[39m: 	/view_task
+2023-03-10 11:20:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:03 [32minfo[39m: 	/notification_display
+2023-03-10 11:20:03 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:20:03 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:20:03 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:20:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:14 [32minfo[39m: 	/notification_display
+2023-03-10 11:20:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:14 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:20:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:14 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:14 [32minfo[39m: 	/trackProcess
+2023-03-10 11:20:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:14 [32minfo[39m: 	/notification_display
+2023-03-10 11:20:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:14 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:14 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:20:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:14 [32minfo[39m: 	/trackProcess
+2023-03-10 11:20:14 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:20:14 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:20:14 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:20:14 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:20:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:39 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:20:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:39 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:20:39 [32minfo[39m: 	update reverted_stud_csv_admin_t set is_active=1, assigned_to=63,assigned_by=1
+    where id in (420);
+2023-03-10 11:20:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:45 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:45 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:45 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:20:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:45 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:45 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:20:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:45 [32minfo[39m: 	/view_task
+2023-03-10 11:20:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:45 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:20:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:45 [32minfo[39m: 	/notification_display
+2023-03-10 11:20:45 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:20:45 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:20:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:46 [32minfo[39m: 	/view_task
+2023-03-10 11:20:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:46 [32minfo[39m: 	/notification_display
+2023-03-10 11:20:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:46 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:20:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:46 [32minfo[39m: 	/roles
+2023-03-10 11:20:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:46 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:20:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:20:46 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:20:46 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:20:46 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:20:46 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:20:47 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:20:47 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:20:47 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by row_time_save desc;
+2023-03-10 11:21:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:06 [32minfo[39m: 	/notification_display
+2023-03-10 11:21:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:06 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:21:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:06 [32minfo[39m: 	/trackProcess
+2023-03-10 11:21:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:06 [32minfo[39m: 	/notification_display
+2023-03-10 11:21:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:06 [32minfo[39m: 	/trackProcess
+2023-03-10 11:21:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:06 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:21:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:06 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:21:06 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:21:06 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:21:06 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/view_task
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/view_task
+2023-03-10 11:21:20 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:21:20 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:21:20 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:21:20 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/notification_display
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/notification_display
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/roles
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:21:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:20 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:21:20 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:21:21 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:21:21 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:21:21 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:21:21 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by row_time_save desc;
+2023-03-10 11:21:27 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:27 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:21:28 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:28 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:21:28 [32minfo[39m: 	update reverted_stud_csv_admin_t set is_active=1, assigned_to=67,assigned_by=1
+    where id in (422);
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:32 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:32 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:32 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:32 [32minfo[39m: 	/view_task
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:32 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:32 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:32 [32minfo[39m: 	/notification_display
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:32 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:32 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/trackProcess
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/notification_display
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/notification_display
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/trackProcess
+2023-03-10 11:21:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/view_task
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:21:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:21:33 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:21:33 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:21:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/roles
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:21:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:21:33 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:21:33 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:21:34 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:21:34 [32minfo[39m: 	/notification_display
+2023-03-10 11:21:34 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:21:34 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:21:34 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by row_time_save desc;
+2023-03-10 11:21:34 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:21:34 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:21:34 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:22:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:01 [32minfo[39m: 	/login
+2023-03-10 11:22:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:01 [32minfo[39m: 	/login
+2023-03-10 11:22:01 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='test@gmail.com'
+2023-03-10 11:22:01 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='test@gmail.com' and pwd='Test@123' 
+2023-03-10 11:22:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:02 [32minfo[39m: 	/notification_display
+2023-03-10 11:22:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:02 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:22:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:02 [32minfo[39m: 	/trackProcess
+2023-03-10 11:22:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:02 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:02 [32minfo[39m: 	/notification_display
+2023-03-10 11:22:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:02 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:22:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:02 [32minfo[39m: 	/trackProcess
+2023-03-10 11:22:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:02 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:02 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=64 order by s.id desc;
+2023-03-10 11:22:02 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:22:02 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=64 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:22:02 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=64;
+2023-03-10 11:22:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:10 [32minfo[39m: 	/advisor_todo_row_save
+2023-03-10 11:22:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:10 [32minfo[39m: 	/advisor_todo_row_save
+2023-03-10 11:22:10 [32minfo[39m: 	update reverted_stud_csv_admin_t set checkbox_save='2023-03-10',u_ts='2023-03-10',student_interest='Future Followup',is_active=1,assigned_to=NULL,assigned_by=NULL where id in (421)
+2023-03-10 11:22:11 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:11 [32minfo[39m: 	/notification_display
+2023-03-10 11:22:11 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:11 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:22:11 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:11 [32minfo[39m: 	/trackProcess
+2023-03-10 11:22:11 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:11 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:11 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:11 [32minfo[39m: 	/notification_display
+2023-03-10 11:22:11 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:11 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:22:11 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:11 [32minfo[39m: 	/trackProcess
+2023-03-10 11:22:11 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:11 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:11 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=64 order by s.id desc;
+2023-03-10 11:22:11 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=64 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:22:11 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=64;
+2023-03-10 11:22:11 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/view_task
+2023-03-10 11:22:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:22:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:22:16 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/view_task
+2023-03-10 11:22:16 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/notification_display
+2023-03-10 11:22:16 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/roles
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:22:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:16 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:22:17 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:17 [32minfo[39m: 	/notification_display
+2023-03-10 11:22:17 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:22:17 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:22:17 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by row_time_save desc;
+2023-03-10 11:22:17 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:22:56 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:22:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:22:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:22:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/view_task
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/notification_display
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/roles
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:23:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:00 [32minfo[39m: 	/view_task
+2023-03-10 11:23:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:23:01 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:23:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:23:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:01 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:23:01 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:23:01 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 11:23:01 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:23:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:01 [32minfo[39m: 	/notification_display
+2023-03-10 11:23:01 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:23:01 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/view_task
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/view_task
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/notification_display
+2023-03-10 11:23:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:44 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:23:45 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:23:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:45 [32minfo[39m: 	/notification_display
+2023-03-10 11:23:45 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:23:45 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:23:45 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:23:45 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:23:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:46 [32minfo[39m: 	/roles
+2023-03-10 11:23:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:46 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:23:46 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:23:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:23:46 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:23:46 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:23:46 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:23:46 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 11:24:28 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:24:28 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:24:28 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:24:28 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:24:28 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=64;
+2023-03-10 11:24:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:24:35 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:24:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:24:35 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:24:35 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=64;
+2023-03-10 11:24:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:24:56 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:24:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:24:56 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:24:56 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=NULL and id not in (NULL);
+2023-03-10 11:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:00 [32minfo[39m: 	/notification_display
+2023-03-10 11:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:00 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:00 [32minfo[39m: 	/trackProcess
+2023-03-10 11:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:00 [32minfo[39m: 	/notification_display
+2023-03-10 11:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:00 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:00 [32minfo[39m: 	/trackProcess
+2023-03-10 11:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:25:00 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=64 order by s.id desc;
+2023-03-10 11:25:00 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=64 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:25:00 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=64;
+2023-03-10 11:25:00 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:25:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:39 [32minfo[39m: 	/login
+2023-03-10 11:25:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:39 [32minfo[39m: 	/login
+2023-03-10 11:25:39 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sree1@gmail.com'
+2023-03-10 11:25:39 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='sree1@gmail.com' and pwd='Test@123' 
+2023-03-10 11:25:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:40 [32minfo[39m: 	/notification_display
+2023-03-10 11:25:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:40 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:25:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:40 [32minfo[39m: 	/trackProcess
+2023-03-10 11:25:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:40 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:25:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:40 [32minfo[39m: 	/notification_display
+2023-03-10 11:25:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:40 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:25:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:40 [32minfo[39m: 	/trackProcess
+2023-03-10 11:25:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:25:40 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:25:40 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=63 order by s.id desc;
+2023-03-10 11:25:40 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=63 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:25:40 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:25:41 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:28:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:00 [32minfo[39m: 	/admin_csv_upload
+2023-03-10 11:28:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:00 [32minfo[39m: 	/admin_csv_upload
+2023-03-10 11:28:00 [32minfo[39m: 	LOAD DATA LOCAL INFILE "filestorage/adminCSV/20230310112800_email-data-validation2.csv" INTO TABLE reverted_stud_csv_admin_t 
+    FIELDS TERMINATED BY ',' 
+    LINES TERMINATED BY '
+' 
+    IGNORE 1 LINES
+    (Studen_Name, phone_no, email_id, country_interested);
+2023-03-10 11:28:00 [31merror[39m: 	Error While Getting notification_display  UNKNOWN_CODE_PLEASE_REPORT: Loading local data is disabled; this must be enabled on both the client and server sides
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:28:06 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:28:06 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/view_task
+2023-03-10 11:28:06 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/view_task
+2023-03-10 11:28:06 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/notification_display
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:28:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:06 [32minfo[39m: 	/notification_display
+2023-03-10 11:28:07 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:07 [32minfo[39m: 	/roles
+2023-03-10 11:28:07 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:07 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:28:07 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:28:07 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:28:07 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:28:07 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:28:07 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:28:07 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:28:07 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 11:35:47 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:35:47 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:35:47 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:35:47 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:35:47 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:35:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:35:57 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:35:57 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:35:57 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:35:57 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:36:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:20 [32minfo[39m: 	/notification_display
+2023-03-10 11:36:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:20 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:36:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:20 [32minfo[39m: 	/trackProcess
+2023-03-10 11:36:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:20 [32minfo[39m: 	/notification_display
+2023-03-10 11:36:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:20 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:36:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:20 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:36:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:20 [32minfo[39m: 	/trackProcess
+2023-03-10 11:36:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:20 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:36:20 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=63 order by s.id desc;
+2023-03-10 11:36:20 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=63 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:36:20 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:36:20 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:36:25 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:25 [32minfo[39m: 	/notification_display
+2023-03-10 11:36:25 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:25 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:36:25 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:25 [32minfo[39m: 	/trackProcess
+2023-03-10 11:36:25 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:25 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:36:25 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=63 order by s.id desc;
+2023-03-10 11:36:25 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=63 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:36:25 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:36:25 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:36:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:31 [32minfo[39m: 	/notification_display
+2023-03-10 11:36:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:31 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:36:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:31 [32minfo[39m: 	/trackProcess
+2023-03-10 11:36:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:31 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:36:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:31 [32minfo[39m: 	/notification_display
+2023-03-10 11:36:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:31 [32minfo[39m: 	/trackProcess
+2023-03-10 11:36:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:31 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:36:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:36:31 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:36:31 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=63 order by s.id desc;
+2023-03-10 11:36:31 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:36:31 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:36:31 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=63 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:37:12 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:37:12 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:40:37 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:40:51 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/view_task
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/roles
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/view_task
+2023-03-10 11:40:55 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:40:55 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:40:55 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:40:55 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:40:55 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:40:55 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:40:55 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/notification_display
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/notification_display
+2023-03-10 11:40:55 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:40:55 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:55 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:40:56 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 11:40:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:56 [32minfo[39m: 	/notification_display
+2023-03-10 11:40:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:56 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:40:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:56 [32minfo[39m: 	/notification_display
+2023-03-10 11:40:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:56 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:40:56 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=63 order by s.id desc;
+2023-03-10 11:40:56 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=63 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:40:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:56 [32minfo[39m: 	/trackProcess
+2023-03-10 11:40:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:56 [32minfo[39m: 	/trackProcess
+2023-03-10 11:40:56 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:40:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:56 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:40:56 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:40:56 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:40:56 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:41:04 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:41:07 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:41:19 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:41:21 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:41:44 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:41:52 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:41:56 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:41:59 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:43:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:43:18 [32minfo[39m: 	/advisor_names_exceptlogged
+2023-03-10 11:43:18 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and id =2 and is_active=1;
+2023-03-10 11:43:58 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:43:58 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:43:58 [32minfo[39m: 	/advisor_names_exceptlogged
+2023-03-10 11:43:58 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and id !=2 and is_active=1;
+2023-03-10 11:44:07 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:44:07 [32minfo[39m: 	/advisor_names_exceptlogged
+2023-03-10 11:44:07 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and id !=63 and is_active=1;
+2023-03-10 11:45:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:02 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:45:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:02 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:45:03 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:45:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:06 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:45:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:06 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:45:06 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63 and id not in (408);
+2023-03-10 11:45:43 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:43 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:45:43 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:43 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:45:43 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:45:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:44 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:45:44 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:45:44 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:44 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:45:44 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:45:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:45 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:45:45 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:45:49 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:49 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:45:49 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:49 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:45:49 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:45:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:53 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:45:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:45:53 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:45:53 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63 and id not in (408);
+2023-03-10 11:46:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:46:03 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:46:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:46:03 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:46:03 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63 and id not in (412);
+2023-03-10 11:47:29 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:47:29 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:47:29 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63 and id not in (408, 412);
+2023-03-10 11:49:03 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:49:09 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:49:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:49:45 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:49:45 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:49:45 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:49:45 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:50:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:50:02 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:50:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:50:02 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:50:02 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63 and id not in (413);
+2023-03-10 11:50:20 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:50:20 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:50:21 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:50:21 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:50:21 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=NULL and id not in (NULL);
+2023-03-10 11:51:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:51:32 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:51:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:51:32 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:51:32 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=NULL and id not in (NULL);
+2023-03-10 11:52:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:53 [32minfo[39m: 	/notification_display
+2023-03-10 11:52:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:53 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:52:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:54 [32minfo[39m: 	/notification_display
+2023-03-10 11:52:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:54 [32minfo[39m: 	/trackProcess
+2023-03-10 11:52:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:54 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:52:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:54 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:52:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:54 [32minfo[39m: 	/trackProcess
+2023-03-10 11:52:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:54 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:52:54 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=63 order by s.id desc;
+2023-03-10 11:52:54 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=63 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:52:54 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:52:54 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:52:59 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:52:59 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:52:59 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/view_task
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/view_task
+2023-03-10 11:52:59 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/roles
+2023-03-10 11:52:59 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:52:59 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:52:59 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:52:59 [32minfo[39m: 	/notification_display
+2023-03-10 11:53:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:00 [32minfo[39m: 	/notification_display
+2023-03-10 11:53:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:00 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:53:00 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:53:00 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:53:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:00 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:53:00 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 11:53:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:02 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:53:02 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:02 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:53:02 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:53:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:04 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:53:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:04 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:53:04 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63 and id not in (408);
+2023-03-10 11:53:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:06 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:53:06 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63 and id not in (412);
+2023-03-10 11:53:07 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:07 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:53:07 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63 and id not in (413);
+2023-03-10 11:53:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:23 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:53:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:23 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:53:23 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'forEach')
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Object.exports.advisor_formAssign_submit_button (E:\ALL-Data\seedfund\AACS\model\adminModel.js:566:10)
+    at exports.advisor_formAssign_submit_button (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:579:16)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:175:3)
+2023-03-10 11:53:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:26 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:53:26 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:26 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:53:26 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:53:36 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:36 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:53:36 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:53:36 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:53:36 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'forEach')
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Object.exports.advisor_formAssign_submit_button (E:\ALL-Data\seedfund\AACS\model\adminModel.js:566:10)
+    at exports.advisor_formAssign_submit_button (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:579:16)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:175:3)
+2023-03-10 11:54:28 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 11:54:28 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:28 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:54:28 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:28 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:54:28 [32minfo[39m: 	update reverted_stud_csv_admin_t set assigned_to='65',assigned_by=63,assign_indicator=0,student_interest=null where id=408;update reverted_stud_csv_admin_t set assigned_to='63',assigned_by=63,assign_indicator=0,student_interest=null where id=408;update reverted_stud_csv_admin_t set assigned_to='63',assigned_by=63,assign_indicator=0,student_interest=null where id=412;update reverted_stud_csv_admin_t set assigned_to='63',assigned_by=63,assign_indicator=0,student_interest=null where id=413;
+2023-03-10 11:54:28 [32minfo[39m: 	update reverted_stud_csv_admin_t set assigned_to='65',assigned_by=63,assign_indicator=0,student_interest=null where id=408;update reverted_stud_csv_admin_t set assigned_to='63',assigned_by=63,assign_indicator=0,student_interest=null where id=408;update reverted_stud_csv_admin_t set assigned_to='63',assigned_by=63,assign_indicator=0,student_interest=null where id=412;update reverted_stud_csv_admin_t set assigned_to='63',assigned_by=63,assign_indicator=0,student_interest=null where id=413;
+2023-03-10 11:54:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:33 [32minfo[39m: 	/notification_display
+2023-03-10 11:54:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:54:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:33 [32minfo[39m: 	/trackProcess
+2023-03-10 11:54:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:33 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:54:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:33 [32minfo[39m: 	/notification_display
+2023-03-10 11:54:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:33 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:54:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:33 [32minfo[39m: 	/trackProcess
+2023-03-10 11:54:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:33 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:54:33 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=63 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:54:33 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=63 order by s.id desc;
+2023-03-10 11:54:33 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:54:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:54:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:37 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:54:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:54:37 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:54:37 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=63;
+2023-03-10 11:55:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:06 [32minfo[39m: 	/login
+2023-03-10 11:55:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:06 [32minfo[39m: 	/login
+2023-03-10 11:55:06 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com'
+2023-03-10 11:55:06 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and pwd='OgLl6bRLJn' 
+2023-03-10 11:55:08 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:08 [32minfo[39m: 	/login
+2023-03-10 11:55:08 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com'
+2023-03-10 11:55:08 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and pwd='OgLl6bRLJn' 
+2023-03-10 11:55:09 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:09 [32minfo[39m: 	/login
+2023-03-10 11:55:09 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com'
+2023-03-10 11:55:09 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and pwd='OgLl6bRLJn' 
+2023-03-10 11:55:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:23 [32minfo[39m: 	/login
+2023-03-10 11:55:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:23 [32minfo[39m: 	/login
+2023-03-10 11:55:23 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com'
+2023-03-10 11:55:23 [32minfo[39m: 	SELECT * FROM users_dtl_t where email='mahesh@gmail.com' and pwd='OgLl6bRLJn' 
+2023-03-10 11:55:24 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:24 [32minfo[39m: 	/notification_display
+2023-03-10 11:55:24 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:24 [32minfo[39m: 	/notification_display
+2023-03-10 11:55:24 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:24 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:55:24 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:55:24 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:24 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:55:24 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:24 [32minfo[39m: 	/trackProcess
+2023-03-10 11:55:24 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:24 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:55:24 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:55:24 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:24 [32minfo[39m: 	/trackProcess
+2023-03-10 11:55:24 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:24 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:55:24 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:55:24 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:55:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:31 [32minfo[39m: 	/notification_display
+2023-03-10 11:55:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:31 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:55:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:32 [32minfo[39m: 	/trackProcess
+2023-03-10 11:55:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:32 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:55:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:32 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:55:32 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:33 [32minfo[39m: 	/notification_display
+2023-03-10 11:55:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:33 [32minfo[39m: 	/trackProcess
+2023-03-10 11:55:33 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:55:33 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:55:33 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:55:33 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:55:33 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:55:33 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:56:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:46 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:56:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:46 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:56:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:46 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:56:46 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:46 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:56:46 [32minfo[39m: 	update reverted_stud_csv_admin_t set is_active=1, assigned_to=65,assigned_by=1
+    where id in (421);
+2023-03-10 11:56:46 [32minfo[39m: 	update reverted_stud_csv_admin_t set is_active=1, assigned_to=65,assigned_by=1
+    where id in (423);
+2023-03-10 11:56:51 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:51 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:56:51 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:51 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:56:51 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:51 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:56:51 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:56:51 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:56:51 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:51 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:56:51 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:51 [32minfo[39m: 	/view_task
+2023-03-10 11:56:51 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:56:51 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:51 [32minfo[39m: 	/notification_display
+2023-03-10 11:56:52 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:52 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:56:52 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:52 [32minfo[39m: 	/view_task
+2023-03-10 11:56:52 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:53 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:56:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:53 [32minfo[39m: 	/notification_display
+2023-03-10 11:56:53 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:56:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:53 [32minfo[39m: 	/roles
+2023-03-10 11:56:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:53 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:56:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:53 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:56:54 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:56:54 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:56:54 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:56:54 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:56:54 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 11:56:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:54 [32minfo[39m: 	/notification_display
+2023-03-10 11:56:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:54 [32minfo[39m: 	/trackProcess
+2023-03-10 11:56:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:54 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:56:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:54 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:56:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:54 [32minfo[39m: 	/notification_display
+2023-03-10 11:56:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:54 [32minfo[39m: 	/trackProcess
+2023-03-10 11:56:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:54 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:56:54 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:56:54 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:56:54 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:56:54 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:56:55 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:56:55 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:57:30 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:31 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:57:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:31 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:57:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:31 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:57:31 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:31 [32minfo[39m: 	/assigned_stud_save_button
+2023-03-10 11:57:31 [32minfo[39m: 	update reverted_stud_csv_admin_t set is_active=1, assigned_to=65,assigned_by=1
+    where id in (424);
+2023-03-10 11:57:31 [32minfo[39m: 	update reverted_stud_csv_admin_t set is_active=1, assigned_to=65,assigned_by=1
+    where id in (425);
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/view_task
+2023-03-10 11:57:35 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:57:35 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/view_task
+2023-03-10 11:57:35 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 11:57:35 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/notification_display
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:57:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:35 [32minfo[39m: 	/notification_display
+2023-03-10 11:57:36 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:36 [32minfo[39m: 	/roles
+2023-03-10 11:57:36 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:36 [32minfo[39m: 	/manage_roles_get
+2023-03-10 11:57:36 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:36 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 11:57:36 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 11:57:36 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 11:57:36 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 11:57:36 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 11:57:36 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 11:57:52 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:52 [32minfo[39m: 	/notification_display
+2023-03-10 11:57:52 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:52 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:57:52 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:52 [32minfo[39m: 	/trackProcess
+2023-03-10 11:57:52 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:52 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:57:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:53 [32minfo[39m: 	/notification_display
+2023-03-10 11:57:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:53 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:57:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:53 [32minfo[39m: 	/trackProcess
+2023-03-10 11:57:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:57:53 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:57:53 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:57:53 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:57:53 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:57:53 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:58:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:01 [32minfo[39m: 	/advisor_todo_row_save
+2023-03-10 11:58:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:01 [32minfo[39m: 	/advisor_todo_row_save
+2023-03-10 11:58:01 [32minfo[39m: 	update reverted_stud_csv_admin_t set row_time_save='2023-03-10',u_ts='2023-03-10',student_interest='Yes',assign_indicator='0' where id in (423)
+2023-03-10 11:58:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:01 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:58:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:01 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:58:01 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:58:03 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:03 [32minfo[39m: 	/advisor_todo_row_save
+2023-03-10 11:58:03 [32minfo[39m: 	update reverted_stud_csv_admin_t set row_time_save='2023-03-10',u_ts='2023-03-10',student_interest='Yes',assign_indicator='1' where id in (423)
+2023-03-10 11:58:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:06 [32minfo[39m: 	/notification_display
+2023-03-10 11:58:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:06 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:58:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:06 [32minfo[39m: 	/trackProcess
+2023-03-10 11:58:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:58:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:06 [32minfo[39m: 	/notification_display
+2023-03-10 11:58:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:06 [32minfo[39m: 	/trackProcess
+2023-03-10 11:58:06 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:06 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:58:06 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:58:06 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:58:06 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:06 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:58:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:16 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:16 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:16 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:18 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:58:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:18 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:58:18 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65 and id not in (423);
+2023-03-10 11:58:27 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:27 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:27 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:27 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:27 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:28 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:28 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:28 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:30 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:30 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:30 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:35 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:35 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:35 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:35 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:37 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:37 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:37 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:37 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:58:38 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:38 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:58:38 [32minfo[39m: 	update reverted_stud_csv_admin_t set assigned_to='65',assigned_by=65,assign_indicator=0,student_interest=null where id=423;
+2023-03-10 11:58:38 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:38 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:38 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:39 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:39 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:39 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:40 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:58:40 [32minfo[39m: 	update reverted_stud_csv_admin_t set assigned_to='65',assigned_by=65,assign_indicator=0,student_interest=null where id=423;
+2023-03-10 11:58:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:40 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:40 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:40 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:47 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:47 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:47 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:47 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:47 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:47 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:47 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:58:47 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:47 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:58:47 [32minfo[39m: 	update reverted_stud_csv_admin_t set assigned_to='65',assigned_by=65,assign_indicator=0,student_interest=null where id=423;
+2023-03-10 11:58:47 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:47 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:58:47 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:53 [32minfo[39m: 	/notification_display
+2023-03-10 11:58:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:53 [32minfo[39m: 	/trackProcess
+2023-03-10 11:58:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:53 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:58:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:53 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:58:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:53 [32minfo[39m: 	/notification_display
+2023-03-10 11:58:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:53 [32minfo[39m: 	/trackProcess
+2023-03-10 11:58:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:53 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:58:53 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:58:53 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:58:53 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:58:54 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:58:54 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:58:54 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:59:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:10 [32minfo[39m: 	/advisor_todo_row_save
+2023-03-10 11:59:10 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:10 [32minfo[39m: 	/advisor_todo_row_save
+2023-03-10 11:59:10 [32minfo[39m: 	update reverted_stud_csv_admin_t set row_time_save='2023-03-10',u_ts='2023-03-10',student_interest='Yes',assign_indicator='1' where id in (423)
+2023-03-10 11:59:12 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:12 [32minfo[39m: 	/notification_display
+2023-03-10 11:59:12 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:12 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:59:12 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:12 [32minfo[39m: 	/notification_display
+2023-03-10 11:59:12 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:12 [32minfo[39m: 	/trackProcess
+2023-03-10 11:59:12 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:12 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 11:59:12 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:12 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:59:12 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:12 [32minfo[39m: 	/trackProcess
+2023-03-10 11:59:12 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:12 [32minfo[39m: 	/names_basedon_role
+2023-03-10 11:59:12 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 11:59:12 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 11:59:12 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:59:12 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 11:59:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:16 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:59:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:16 [32minfo[39m: 	/count_check_advisor_form
+2023-03-10 11:59:16 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 11:59:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:18 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:59:18 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:18 [32minfo[39m: 	/advisor_form_studNames_dropdown
+2023-03-10 11:59:18 [32minfo[39m: 	SELECT id,Studen_Name,email_id FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65 and id not in (423);
+2023-03-10 11:59:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:40 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:59:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:40 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:59:40 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'forEach')
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Object.exports.advisor_formAssign_submit_button (E:\ALL-Data\seedfund\AACS\model\adminModel.js:566:10)
+    at exports.advisor_formAssign_submit_button (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:579:16)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:175:3)
+2023-03-10 11:59:40 [32minfo[39m: 	Requested URL : 
+2023-03-10 11:59:40 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 11:59:40 [31merror[39m: 	uncaughtException: Cannot read properties of undefined (reading 'forEach')
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Object.exports.advisor_formAssign_submit_button (E:\ALL-Data\seedfund\AACS\model\adminModel.js:566:10)
+    at exports.advisor_formAssign_submit_button (E:\ALL-Data\seedfund\AACS\controllers\adminCtrl.js:579:16)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\ALL-Data\seedfund\AACS\node_modules\express\lib\router\index.js:175:3)
+2023-03-10 12:00:14 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 12:00:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:14 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 12:00:14 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:14 [32minfo[39m: 	/advisor_formAssign_submit_button
+2023-03-10 12:00:14 [32minfo[39m: 	update reverted_stud_csv_admin_t set assigned_to='65',assigned_by=65,assign_indicator=0,student_interest=null where id=423;
+2023-03-10 12:00:14 [32minfo[39m: 	update reverted_stud_csv_admin_t set assigned_to='65',assigned_by=65,assign_indicator=0,student_interest=null where id=423;
+2023-03-10 12:00:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:16 [32minfo[39m: 	/notification_display
+2023-03-10 12:00:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:16 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 12:00:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:16 [32minfo[39m: 	/notification_display
+2023-03-10 12:00:16 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:16 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 12:00:16 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 12:00:16 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 12:00:17 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:17 [32minfo[39m: 	/trackProcess
+2023-03-10 12:00:17 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:17 [32minfo[39m: 	/names_basedon_role
+2023-03-10 12:00:17 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:17 [32minfo[39m: 	/trackProcess
+2023-03-10 12:00:17 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:00:17 [32minfo[39m: 	/names_basedon_role
+2023-03-10 12:00:17 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 12:00:17 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 12:01:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:23 [32minfo[39m: 	/notification_display
+2023-03-10 12:01:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:23 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 12:01:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:23 [32minfo[39m: 	/names_basedon_role
+2023-03-10 12:01:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:23 [32minfo[39m: 	/trackProcess
+2023-03-10 12:01:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:23 [32minfo[39m: 	/notification_display
+2023-03-10 12:01:23 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=2  and name=65 order by s.id desc;
+2023-03-10 12:01:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:23 [32minfo[39m: 	/trackProcess
+2023-03-10 12:01:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:23 [32minfo[39m: 	/names_basedon_role
+2023-03-10 12:01:23 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:23 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 12:01:23 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t
+where student_interest="Yes" and assign_indicator=1 and assigned_to=65;
+2023-03-10 12:01:23 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 12:01:23 [32minfo[39m: 	 select case when assign_indicator=0 then "true" when assign_indicator=1 then '' else '' end as checked,a.*
+        from reverted_stud_csv_admin_t as a 
+        where   is_active=1 and assigned_to=65 and (student_interest is null or (student_interest='Yes' and assign_indicator=0));
+2023-03-10 12:01:41 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:41 [32minfo[39m: 	/names_basedon_role
+2023-03-10 12:01:41 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:41 [32minfo[39m: 	/names_basedon_role
+2023-03-10 12:01:41 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 12:01:41 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:41 [32minfo[39m: 	/names_basedon_role
+2023-03-10 12:01:41 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 12:01:41 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:41 [32minfo[39m: 	/names_basedon_role
+2023-03-10 12:01:41 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 12:01:41 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:41 [32minfo[39m: 	/view_task
+2023-03-10 12:01:41 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:41 [32minfo[39m: 	/view_task
+2023-03-10 12:01:41 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 12:01:41 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:41 [32minfo[39m: 	/roles
+2023-03-10 12:01:41 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 12:01:42 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:42 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 12:01:42 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:42 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 12:01:42 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 12:01:42 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:42 [32minfo[39m: 	/manage_roles_get
+2023-03-10 12:01:42 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 12:01:42 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:42 [32minfo[39m: 	/notification_display
+2023-03-10 12:01:42 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:42 [32minfo[39m: 	/notification_display
+2023-03-10 12:01:42 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 12:01:42 [32minfo[39m: 	Requested URL : 
+2023-03-10 12:01:42 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 12:01:42 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 18:19:00 [34mdebug[39m: 	CharisPathWay API server is listening at http://:::5555
+2023-03-10 18:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 18:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 18:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 18:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:00 [32minfo[39m: 	/names_basedon_role
+2023-03-10 18:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:00 [32minfo[39m: 	/view_task
+2023-03-10 18:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:00 [32minfo[39m: 	/manage_roles_get
+2023-03-10 18:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:00 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 18:25:00 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:00 [32minfo[39m: 	/notification_display
+2023-03-10 18:25:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:01 [32minfo[39m: 	/roles
+2023-03-10 18:25:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:01 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 18:25:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:01 [32minfo[39m: 	/names_basedon_role
+2023-03-10 18:25:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:01 [32minfo[39m: 	/names_basedon_role
+2023-03-10 18:25:01 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 18:25:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 18:25:01 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 18:25:01 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 18:25:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 18:25:01 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 18:25:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:01 [32minfo[39m: 	/view_task
+2023-03-10 18:25:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:01 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 18:25:01 [32minfo[39m: 	Requested URL : 
+2023-03-10 18:25:01 [32minfo[39m: 	/notification_display
+2023-03-10 18:25:01 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
+2023-03-10 18:25:01 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 18:25:01 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/names_basedon_role
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/names_basedon_role
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/names_basedon_role
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/view_task
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/notification_display
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/names_basedon_role
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/roles
+2023-03-10 21:54:04 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=2 and is_active=1;
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/manage_roles_get
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/admin_reverted_list_get
+2023-03-10 21:54:04 [32minfo[39m: 	SELECT * FROM roles_table where status=1;
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/names_basedon_role
+2023-03-10 21:54:04 [32minfo[39m: 	SELECT u.id,user_name,role,r.role_name,email,designation,c_ts as joined_date,phone_no,u.is_active
+FROM users_dtl_t as u
+join roles_table as r on r.id=u.role where role!=1 and u.is_active=1;
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/names_basedon_role
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/view_task
+2023-03-10 21:54:04 [32minfo[39m: 	SELECT * FROM reverted_stud_csv_admin_t 
+    where  student_interest='Future Followup' and is_active=1 order by checkbox_save desc;
+2023-03-10 21:54:04 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=4 and is_active=1;
+2023-03-10 21:54:04 [32minfo[39m: 	SELECT id,user_name,email FROM users_dtl_t where role=3 and is_active=1;
+2023-03-10 21:54:04 [32minfo[39m: 	SELECT * FROM tasks_dlt_t where c_by=1 and status="In Progress" and is_active=1 order by id desc;
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/assigned_stud_list_csv
+2023-03-10 21:54:04 [32minfo[39m: 	Requested URL : 
+2023-03-10 21:54:04 [32minfo[39m: 	/notification_display
+2023-03-10 21:54:04 [32minfo[39m: 	select * from reverted_stud_csv_admin_t where is_active=1 and assigned_to is null
+2023-03-10 21:54:04 [32minfo[39m: 	select s.message,u.user_name as createdby,s.c_ts as createdtime from send_message_dtl_t as s 
+join users_dtl_t as u on u.id=s.created_by
+ where role_id=1  and name=1 order by s.id desc;
